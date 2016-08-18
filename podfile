@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs'
+
+# ignore all warnings from all pods
+use_frameworks!
+
+target 'Arcohol' do
+    pod 'Socket.IO-Client-Swift', '~> 6.1.6' # Or latest version
+end

@@ -1,0 +1,6 @@
+framework module Pods_Arcohol {
+  umbrella header "Pods-Arcohol-umbrella.h"
+
+  export *
+  module * { export * }
+}
