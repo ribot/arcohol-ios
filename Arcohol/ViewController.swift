@@ -25,7 +25,7 @@ class ViewController: UITableViewController {
             if let cur = data[0] as? NSDictionary {
 
                 if let segmentCount = cur["segmentCount"] as? NSInteger {
-
+                    self.array.removeAllObjects()
                     for i in 0..<segmentCount + 1 {
                         let myNumber = NSNumber(integer:i)
                         self.array.addObject(myNumber)

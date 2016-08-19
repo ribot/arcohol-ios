@@ -1,1645 +1,607 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0131AC21F0BCF5EDADAF56EC3BEDC8C7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>836320670E95BF9F275E3B982D9C7BA9</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5FD21B17CB0A3D58B8D9E4F77A4B18AD</string>
-				<string>E81A148EDAE1A0AA6E64BB05226C2A6D</string>
-				<string>9DDE3C81C642AB383EB9B5A606757FE0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>60B74754C5BF6DE7D508C193E3E28124</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Arcohol</string>
-			<key>productName</key>
-			<string>Pods-Arcohol</string>
-			<key>productReference</key>
-			<string>96B7FE2558CBB83B03C5011ECB0758C8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>0A16579676B5ECFFEB5DFADBCB295126</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Arcohol-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A9E6DE3609E206DF66F748B3276E73E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineWebsocket.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineWebsocket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0AA6DCE4DB27CCD779D7EFEA9CDEC055</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40CD5CE0B1FA769C5E4189E9D0B2E83C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0CFE4296667075DED87E834A607506D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Arcohol-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E43C302EA1016DC8CBE932C0326B474</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5ABB993FD7DA2179EFDB1B82DE31638</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1079B0BDBE38B922CCF99B449589A936</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1539D268AB6B09F93E243519B2AE278F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEnginePollable.swift</string>
-			<key>path</key>
-			<string>Source/SocketEnginePollable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>166FE6A4BC5475673619A7EDC6991C51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineClient.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AFC0F7E68B95DA5893E91AF8402FF8D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EE7E8A6DD74E60D3E902D86F9ECE01CA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8C9A4F80C48CC7243775F73A8EC89BB7</string>
-				<string>31ECDCEC3A6A77C12AF82B80F2F84F30</string>
-				<string>A82BD4711212D18AFEEBC765198A058D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>productName</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>productReference</key>
-			<string>D2BD653893EF76DB6F7DFA7F3EA6C243</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1B203281D5F24899CA64B5889E2E8643</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Arcohol-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BDBAD22A8C5C840F186680CEB94E2B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SSLSecurity.swift</string>
-			<key>path</key>
-			<string>Source/SSLSecurity.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1CE3481CBF4D936D2C7BD61EBEFF5006</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D09B0AEC21752DCC4DFA00386555EBD5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25C3095B25C6E5A4B8CF6B4236CDF1AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEnginePacketType.swift</string>
-			<key>path</key>
-			<string>Source/SocketEnginePacketType.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27C92D13F45321CE40CACC9B74399833</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC1035ED4CAB59B50944F190B5B6E5ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2815F87124A5D4BE841207E934FA6D24</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEventHandler.swift</string>
-			<key>path</key>
-			<string>Source/SocketEventHandler.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28584CC8D47616EF446C9D639B5F501E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BDBAD22A8C5C840F186680CEB94E2B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2B389FAB51F6EEA43F72CA7BDC8E8E28</string>
-				<string>5A0C6FE968931D888F00C9EC18DDF5BC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2DE34C6C99418B3D68A58C5C9BD7F185</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31ECDCEC3A6A77C12AF82B80F2F84F30</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A4D434C4E7A6153488F3B853D6BA6D2C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3BE41648AABD7EEF14E180A676511FFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Arcohol-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C50D7AABBEC7F19B9FD8A492CA6399E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>401E355ACC7A4E12C202F216778E9B4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Arcohol-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40CD5CE0B1FA769C5E4189E9D0B2E83C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Arcohol-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>437FD8279943880C6DCC51E75BC1B67A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>822F51C720958FCAD37DFD889C32CA33</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>482B304A26ED36D236319EBE9A3764A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>166FE6A4BC5475673619A7EDC6991C51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49C7676562D3B106EA29F5C857701149</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B29865E9455BF96BB3F1C9D1314A2A33</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>502EDA3C32A8FC048F415CE623D152DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketPacket.swift</string>
-			<key>path</key>
-			<string>Source/SocketPacket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52B55C77E3287E6FCEB869A19405ABC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>502EDA3C32A8FC048F415CE623D152DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>582458BB21F97A0CF9F115B9DBE87CF6</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1AFC0F7E68B95DA5893E91AF8402FF8D</string>
-			<key>remoteInfo</key>
-			<string>Socket.IO-Client-Swift</string>
-		</dict>
-		<key>58B69047D3D50DBCBE7EC73BD7A6B885</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAnyEvent.swift</string>
-			<key>path</key>
-			<string>Source/SocketAnyEvent.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5FD21B17CB0A3D58B8D9E4F77A4B18AD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B9328E7B795377B2367C16AC87902854</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>60B74754C5BF6DE7D508C193E3E28124</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>target</key>
-			<string>1AFC0F7E68B95DA5893E91AF8402FF8D</string>
-			<key>targetProxy</key>
-			<string>582458BB21F97A0CF9F115B9DBE87CF6</string>
-		</dict>
-		<key>625EB61367D5A09ADDB64EBA4E8C3C9D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientStatus.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientStatus.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63FEE20CC24D5FA66E78E537C72516E1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DFE02B4FC364C71CD7AA950A2E629A02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6981BC3C025CCDBA350FF8F2C95628BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>625EB61367D5A09ADDB64EBA4E8C3C9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B335879329C16DE49266EEABC5A8C6C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D10C13750E5801C3500E050B0458799</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DE34C6C99418B3D68A58C5C9BD7F185</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6DAC72C502D0164B46B0D76B56057735</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2815F87124A5D4BE841207E934FA6D24</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B922915C6A8FAB2E50CDFFC28FD0F01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>WebSocket.swift</string>
-			<key>path</key>
-			<string>Source/WebSocket.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>0E43C302EA1016DC8CBE932C0326B474</string>
-				<string>FDD3C0AEFDABA824680C97D8F162939D</string>
-				<string>63FEE20CC24D5FA66E78E537C72516E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>822F51C720958FCAD37DFD889C32CA33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientSpec.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>836320670E95BF9F275E3B982D9C7BA9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D73B6261E1303A16885AF2BE8C024C42</string>
-				<string>F68A3470BA8203E263400025DF67CCFF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8C9A4F80C48CC7243775F73A8EC89BB7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C695937198143A095D564EB4BA19C9C7</string>
-				<string>49C7676562D3B106EA29F5C857701149</string>
-				<string>E201BA98EFDBC4EAF7DA872D90EAF02D</string>
-				<string>A1CD8669B39232D12DC68F97B334CD6A</string>
-				<string>A61A436A21974043808D6824771253ED</string>
-				<string>8ECDD91260FA7E395DCE5BCD87B3C793</string>
-				<string>482B304A26ED36D236319EBE9A3764A9</string>
-				<string>97BD4C6C61C51674F75B9488778E2DE5</string>
-				<string>D70AF860E753F4F1ADF11FBE2A3EF36A</string>
-				<string>27C92D13F45321CE40CACC9B74399833</string>
-				<string>C20B10C3A79E60FB6B8B30F9384E25B5</string>
-				<string>6DAC72C502D0164B46B0D76B56057735</string>
-				<string>FDD405D0A218B629298D4F230AD9008F</string>
-				<string>E6567C24BBB51EA49FF9C7C13C518372</string>
-				<string>FF6C431D6C7FA71AC34F0F261CED6BEA</string>
-				<string>437FD8279943880C6DCC51E75BC1B67A</string>
-				<string>6981BC3C025CCDBA350FF8F2C95628BB</string>
-				<string>DC264A35CA3E45CD25B11796E8995B9B</string>
-				<string>52B55C77E3287E6FCEB869A19405ABC8</string>
-				<string>1CE3481CBF4D936D2C7BD61EBEFF5006</string>
-				<string>C13A00FF7116A1A8A4E0727DA1693C24</string>
-				<string>A6E859AEBB3980271051B188937403C2</string>
-				<string>28584CC8D47616EF446C9D639B5F501E</string>
-				<string>FC5E2F0E3A9C17116E264BCFBF075D24</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8ECDD91260FA7E395DCE5BCD87B3C793</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA28E93B3F91F281A7562A9D21D52D9C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96B7FE2558CBB83B03C5011ECB0758C8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Arcohol.framework</string>
-			<key>path</key>
-			<string>Pods_Arcohol.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>97BD4C6C61C51674F75B9488778E2DE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>25C3095B25C6E5A4B8CF6B4236CDF1AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>99BE209484D9FE966D8F4C9E9762326D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAckManager.swift</string>
-			<key>path</key>
-			<string>Source/SocketAckManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DDE3C81C642AB383EB9B5A606757FE0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0AA6DCE4DB27CCD779D7EFEA9CDEC055</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A1CD8669B39232D12DC68F97B334CD6A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>58B69047D3D50DBCBE7EC73BD7A6B885</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4D434C4E7A6153488F3B853D6BA6D2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4E1078ED347FE1F68D710BA603943A1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CA4D8C7D0F3EDB74DB8692D8D7ABA6B6</string>
-				<string>DB53A73CD62DFA07EFA9FA89C144D96E</string>
-				<string>3C50D7AABBEC7F19B9FD8A492CA6399E</string>
-				<string>C6BE8EE8A38ECE687B6CAC84498111AC</string>
-				<string>1079B0BDBE38B922CCF99B449589A936</string>
-				<string>2DE34C6C99418B3D68A58C5C9BD7F185</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Socket.IO-Client-Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A61A436A21974043808D6824771253ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A8FF773F767E909FA900F67BAF08AF6A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6E859AEBB3980271051B188937403C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7655864815FAB2CDD140E00E5078DBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A815CCA81B4C721F1241E47248BE5DAD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Arcohol.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A82BD4711212D18AFEEBC765198A058D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6D10C13750E5801C3500E050B0458799</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A8FF773F767E909FA900F67BAF08AF6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketClientManager.swift</string>
-			<key>path</key>
-			<string>Source/SocketClientManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEB5025F8DFEEB35BA0CA8D68DBD5DBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketStringReader.swift</string>
-			<key>path</key>
-			<string>Source/SocketStringReader.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B29865E9455BF96BB3F1C9D1314A2A33</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketAckEmitter.swift</string>
-			<key>path</key>
-			<string>Source/SocketAckEmitter.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B5ABB993FD7DA2179EFDB1B82DE31638</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B29865E9455BF96BB3F1C9D1314A2A33</string>
-				<string>99BE209484D9FE966D8F4C9E9762326D</string>
-				<string>58B69047D3D50DBCBE7EC73BD7A6B885</string>
-				<string>A8FF773F767E909FA900F67BAF08AF6A</string>
-				<string>BA28E93B3F91F281A7562A9D21D52D9C</string>
-				<string>166FE6A4BC5475673619A7EDC6991C51</string>
-				<string>25C3095B25C6E5A4B8CF6B4236CDF1AF</string>
-				<string>1539D268AB6B09F93E243519B2AE278F</string>
-				<string>DC1035ED4CAB59B50944F190B5B6E5ED</string>
-				<string>0A9E6DE3609E206DF66F748B3276E73E</string>
-				<string>2815F87124A5D4BE841207E934FA6D24</string>
-				<string>F37F6C04579156D158BC2A303AC08ED5</string>
-				<string>B74B5E2E87423A29A9634BCAF68F39C8</string>
-				<string>B8E646DB4E27C271B3772BD011E03A38</string>
-				<string>822F51C720958FCAD37DFD889C32CA33</string>
-				<string>625EB61367D5A09ADDB64EBA4E8C3C9D</string>
-				<string>D9D3C0A3B1755EA912B83795ED3063FB</string>
-				<string>502EDA3C32A8FC048F415CE623D152DB</string>
-				<string>D09B0AEC21752DCC4DFA00386555EBD5</string>
-				<string>AEB5025F8DFEEB35BA0CA8D68DBD5DBB</string>
-				<string>C7655864815FAB2CDD140E00E5078DBE</string>
-				<string>1BDBAD22A8C5C840F186680CEB94E2B3</string>
-				<string>7B922915C6A8FAB2E50CDFFC28FD0F01</string>
-				<string>A4E1078ED347FE1F68D710BA603943A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B74B5E2E87423A29A9634BCAF68F39C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClient.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8E646DB4E27C271B3772BD011E03A38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketIOClientOption.swift</string>
-			<key>path</key>
-			<string>Source/SocketIOClientOption.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9328E7B795377B2367C16AC87902854</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3BE41648AABD7EEF14E180A676511FFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA28E93B3F91F281A7562A9D21D52D9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngine.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngine.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C13A00FF7116A1A8A4E0727DA1693C24</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEB5025F8DFEEB35BA0CA8D68DBD5DBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C20B10C3A79E60FB6B8B30F9384E25B5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0A9E6DE3609E206DF66F748B3276E73E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3BC2B2765B627EBAC27200BAF62C231</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3C50D7AABBEC7F19B9FD8A492CA6399E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SocketIOClientSwift</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C487739ED97977AC445562B8685296C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C695937198143A095D564EB4BA19C9C7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6BE8EE8A38ECE687B6CAC84498111AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C6BE8EE8A38ECE687B6CAC84498111AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7655864815FAB2CDD140E00E5078DBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketTypes.swift</string>
-			<key>path</key>
-			<string>Source/SocketTypes.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA4D8C7D0F3EDB74DB8692D8D7ABA6B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D09B0AEC21752DCC4DFA00386555EBD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketParsable.swift</string>
-			<key>path</key>
-			<string>Source/SocketParsable.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2BD653893EF76DB6F7DFA7F3EA6C243</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SocketIOClientSwift.framework</string>
-			<key>path</key>
-			<string>SocketIOClientSwift.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>FDD3C0AEFDABA824680C97D8F162939D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>0131AC21F0BCF5EDADAF56EC3BEDC8C7</string>
-				<string>1AFC0F7E68B95DA5893E91AF8402FF8D</string>
-			</array>
-		</dict>
-		<key>D70AF860E753F4F1ADF11FBE2A3EF36A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1539D268AB6B09F93E243519B2AE278F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D73B6261E1303A16885AF2BE8C024C42</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EFA56843B4CFBEEE36AD7836ACA072F6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Arcohol/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Arcohol/Pods-Arcohol.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Arcohol</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D9D3C0A3B1755EA912B83795ED3063FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketLogger.swift</string>
-			<key>path</key>
-			<string>Source/SocketLogger.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB53A73CD62DFA07EFA9FA89C144D96E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Socket.IO-Client-Swift.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC1035ED4CAB59B50944F190B5B6E5ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketEngineSpec.swift</string>
-			<key>path</key>
-			<string>Source/SocketEngineSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC264A35CA3E45CD25B11796E8995B9B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9D3C0A3B1755EA912B83795ED3063FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DFE02B4FC364C71CD7AA950A2E629A02</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B335879329C16DE49266EEABC5A8C6C</string>
-				<string>E3C064F8397C36D065779ECB096E0238</string>
-				<string>401E355ACC7A4E12C202F216778E9B4E</string>
-				<string>0A16579676B5ECFFEB5DFADBCB295126</string>
-				<string>3BE41648AABD7EEF14E180A676511FFB</string>
-				<string>0CFE4296667075DED87E834A607506D4</string>
-				<string>1B203281D5F24899CA64B5889E2E8643</string>
-				<string>40CD5CE0B1FA769C5E4189E9D0B2E83C</string>
-				<string>EFA56843B4CFBEEE36AD7836ACA072F6</string>
-				<string>A815CCA81B4C721F1241E47248BE5DAD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Arcohol</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Arcohol</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E201BA98EFDBC4EAF7DA872D90EAF02D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>99BE209484D9FE966D8F4C9E9762326D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E3C064F8397C36D065779ECB096E0238</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Arcohol.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6567C24BBB51EA49FF9C7C13C518372</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B74B5E2E87423A29A9634BCAF68F39C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E81A148EDAE1A0AA6E64BB05226C2A6D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C487739ED97977AC445562B8685296C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EE7E8A6DD74E60D3E902D86F9ECE01CA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F93002CAAFFE0761E86BC48B4E0C1D72</string>
-				<string>C3BC2B2765B627EBAC27200BAF62C231</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EFA56843B4CFBEEE36AD7836ACA072F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Arcohol.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F37F6C04579156D158BC2A303AC08ED5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SocketExtensions.swift</string>
-			<key>path</key>
-			<string>Source/SocketExtensions.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F68A3470BA8203E263400025DF67CCFF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A815CCA81B4C721F1241E47248BE5DAD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Arcohol/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Arcohol/Pods-Arcohol.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Arcohol</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F93002CAAFFE0761E86BC48B4E0C1D72</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3C50D7AABBEC7F19B9FD8A492CA6399E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SocketIOClientSwift</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FC5E2F0E3A9C17116E264BCFBF075D24</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B922915C6A8FAB2E50CDFFC28FD0F01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDD3C0AEFDABA824680C97D8F162939D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>96B7FE2558CBB83B03C5011ECB0758C8</string>
-				<string>D2BD653893EF76DB6F7DFA7F3EA6C243</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDD405D0A218B629298D4F230AD9008F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F37F6C04579156D158BC2A303AC08ED5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF6C431D6C7FA71AC34F0F261CED6BEA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8E646DB4E27C271B3772BD011E03A38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CB6B1C98525AD0979684C025FD5E5E /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FF773F767E909FA900F67BAF08AF6A /* SocketClientManager.swift */; };
+		049DDDD7FE558D16C05DDC448352E073 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E646DB4E27C271B3772BD011E03A38 /* SocketIOClientOption.swift */; };
+		14011724990E2F6C0AF7DDB854176638 /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BE8EE8A38ECE687B6CAC84498111AC /* Socket.IO-Client-Swift-dummy.m */; };
+		234F53C3472B6509B3808A7487CE8DBA /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29865E9455BF96BB3F1C9D1314A2A33 /* SocketAckEmitter.swift */; };
+		29FB02244BCA51391D906720112C1B76 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F51C720958FCAD37DFD889C32CA33 /* SocketIOClientSpec.swift */; };
+		4331472AD5477A7D9E2CB4DBB7F08132 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7655864815FAB2CDD140E00E5078DBE /* SocketTypes.swift */; };
+		527B8F6B91FD83DAA0347E3F062DE498 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815F87124A5D4BE841207E934FA6D24 /* SocketEventHandler.swift */; };
+		5610EE1D21C36C0556713B72955A331F /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D3C0A3B1755EA912B83795ED3063FB /* SocketLogger.swift */; };
+		571467C4A2F3663C0419955437DF122F /* Pods-Arcohol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41648AABD7EEF14E180A676511FFB /* Pods-Arcohol-dummy.m */; };
+		5A8275AFF81D9C96BCDA17AF1C6D131F /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B69047D3D50DBCBE7EC73BD7A6B885 /* SocketAnyEvent.swift */; };
+		5AD7313D104764FF60FBFBFD76B1D8EF /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B0AEC21752DCC4DFA00386555EBD5 /* SocketParsable.swift */; };
+		6B1F200197020B857719659A7E20B040 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28E93B3F91F281A7562A9D21D52D9C /* SocketEngine.swift */; };
+		6F4FE59B12D6BC7352222B79D6EFC44C /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBAD22A8C5C840F186680CEB94E2B3 /* SSLSecurity.swift */; };
+		73424D948E7D2A6B01CB0C0C57F60B1B /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EDA3C32A8FC048F415CE623D152DB /* SocketPacket.swift */; };
+		7C3F612FB7AB60C7DB523BAF6D51328F /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1539D268AB6B09F93E243519B2AE278F /* SocketEnginePollable.swift */; };
+		817790FDBEB293D4B5A8F8051419F7EE /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C3095B25C6E5A4B8CF6B4236CDF1AF /* SocketEnginePacketType.swift */; };
+		912EA989E866FD86F1C237C184F54D6A /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625EB61367D5A09ADDB64EBA4E8C3C9D /* SocketIOClientStatus.swift */; };
+		91B3FD542CF053544A54B194F5DA3EC8 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166FE6A4BC5475673619A7EDC6991C51 /* SocketEngineClient.swift */; };
+		95F59DA2323ADAB186B65E6AB3100A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A061F7ED6F385A4065B69218A9D8C844 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE209484D9FE966D8F4C9E9762326D /* SocketAckManager.swift */; };
+		C1EFE62F20C5AA3B3F9219C7D6912D51 /* Pods-Arcohol-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CD5CE0B1FA769C5E4189E9D0B2E83C /* Pods-Arcohol-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2601C14EF4AF22724C31CBEE1371578 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1035ED4CAB59B50944F190B5B6E5ED /* SocketEngineSpec.swift */; };
+		CC9F84C5C170FB4E35314F8993B79659 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74B5E2E87423A29A9634BCAF68F39C8 /* SocketIOClient.swift */; };
+		D085DEC0BAAA33ED2102E739CB7A2306 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F6C04579156D158BC2A303AC08ED5 /* SocketExtensions.swift */; };
+		D28A6170845A4020E634A837356D0293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DE3ADBE4B6F607DF2BA016A77F375D95 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6DE3609E206DF66F748B3276E73E /* SocketEngineWebsocket.swift */; };
+		ED210888D25EAD27C921F2E220FCCE6F /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B922915C6A8FAB2E50CDFFC28FD0F01 /* WebSocket.swift */; };
+		F0B2CB6984CD2572A4BC90A92DE712FF /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5025F8DFEEB35BA0CA8D68DBD5DBB /* SocketStringReader.swift */; };
+		FE1D84525CA6F79641E42088DE55B70C /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE34C6C99418B3D68A58C5C9BD7F185 /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15F1F6067A331CF280D87EC372AA9EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817A78155994576628C43D95A52F7D72;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069FB6E5640A7B99DEB8F8D257F66FE1 /* Pods_Arcohol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcohol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A16579676B5ECFFEB5DFADBCB295126 /* Pods-Arcohol-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Arcohol-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A9E6DE3609E206DF66F748B3276E73E /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		0CFE4296667075DED87E834A607506D4 /* Pods-Arcohol-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcohol-frameworks.sh"; sourceTree = "<group>"; };
+		1079B0BDBE38B922CCF99B449589A936 /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		1539D268AB6B09F93E243519B2AE278F /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		166FE6A4BC5475673619A7EDC6991C51 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		1B203281D5F24899CA64B5889E2E8643 /* Pods-Arcohol-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Arcohol-resources.sh"; sourceTree = "<group>"; };
+		1BDBAD22A8C5C840F186680CEB94E2B3 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		25C3095B25C6E5A4B8CF6B4236CDF1AF /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		2815F87124A5D4BE841207E934FA6D24 /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		2DE34C6C99418B3D68A58C5C9BD7F185 /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		3BE41648AABD7EEF14E180A676511FFB /* Pods-Arcohol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Arcohol-dummy.m"; sourceTree = "<group>"; };
+		3C50D7AABBEC7F19B9FD8A492CA6399E /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		401E355ACC7A4E12C202F216778E9B4E /* Pods-Arcohol-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Arcohol-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40CD5CE0B1FA769C5E4189E9D0B2E83C /* Pods-Arcohol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Arcohol-umbrella.h"; sourceTree = "<group>"; };
+		4551330B1096E79150485203522B1A03 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIOClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502EDA3C32A8FC048F415CE623D152DB /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		58B69047D3D50DBCBE7EC73BD7A6B885 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		625EB61367D5A09ADDB64EBA4E8C3C9D /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		6B335879329C16DE49266EEABC5A8C6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B922915C6A8FAB2E50CDFFC28FD0F01 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		822F51C720958FCAD37DFD889C32CA33 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BE209484D9FE966D8F4C9E9762326D /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		A815CCA81B4C721F1241E47248BE5DAD /* Pods-Arcohol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcohol.release.xcconfig"; sourceTree = "<group>"; };
+		A8FF773F767E909FA900F67BAF08AF6A /* SocketClientManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = Source/SocketClientManager.swift; sourceTree = "<group>"; };
+		AEB5025F8DFEEB35BA0CA8D68DBD5DBB /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		B29865E9455BF96BB3F1C9D1314A2A33 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		B74B5E2E87423A29A9634BCAF68F39C8 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		B8E646DB4E27C271B3772BD011E03A38 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		BA28E93B3F91F281A7562A9D21D52D9C /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		C6BE8EE8A38ECE687B6CAC84498111AC /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		C7655864815FAB2CDD140E00E5078DBE /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+		CA4D8C7D0F3EDB74DB8692D8D7ABA6B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D09B0AEC21752DCC4DFA00386555EBD5 /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		D9D3C0A3B1755EA912B83795ED3063FB /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		DB53A73CD62DFA07EFA9FA89C144D96E /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		DC1035ED4CAB59B50944F190B5B6E5ED /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		E3C064F8397C36D065779ECB096E0238 /* Pods-Arcohol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Arcohol.modulemap"; sourceTree = "<group>"; };
+		EFA56843B4CFBEEE36AD7836ACA072F6 /* Pods-Arcohol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Arcohol.debug.xcconfig"; sourceTree = "<group>"; };
+		F37F6C04579156D158BC2A303AC08ED5 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921FD2B33FDC97473EE6A7E37FE5245E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A6170845A4020E634A837356D0293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D9465EB2A2EB06FF85170C11F5A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F59DA2323ADAB186B65E6AB3100A06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E43C302EA1016DC8CBE932C0326B474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5ABB993FD7DA2179EFDB1B82DE31638 /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1CDF3417F78DF43BBCE4EC9213580D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069FB6E5640A7B99DEB8F8D257F66FE1 /* Pods_Arcohol.framework */,
+				4551330B1096E79150485203522B1A03 /* SocketIOClientSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63FEE20CC24D5FA66E78E537C72516E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE02B4FC364C71CD7AA950A2E629A02 /* Pods-Arcohol */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0E43C302EA1016DC8CBE932C0326B474 /* Pods */,
+				1CDF3417F78DF43BBCE4EC9213580D9D /* Products */,
+				63FEE20CC24D5FA66E78E537C72516E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E1078ED347FE1F68D710BA603943A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D8C7D0F3EDB74DB8692D8D7ABA6B6 /* Info.plist */,
+				DB53A73CD62DFA07EFA9FA89C144D96E /* Socket.IO-Client-Swift.modulemap */,
+				3C50D7AABBEC7F19B9FD8A492CA6399E /* Socket.IO-Client-Swift.xcconfig */,
+				C6BE8EE8A38ECE687B6CAC84498111AC /* Socket.IO-Client-Swift-dummy.m */,
+				1079B0BDBE38B922CCF99B449589A936 /* Socket.IO-Client-Swift-prefix.pch */,
+				2DE34C6C99418B3D68A58C5C9BD7F185 /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		B5ABB993FD7DA2179EFDB1B82DE31638 /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B29865E9455BF96BB3F1C9D1314A2A33 /* SocketAckEmitter.swift */,
+				99BE209484D9FE966D8F4C9E9762326D /* SocketAckManager.swift */,
+				58B69047D3D50DBCBE7EC73BD7A6B885 /* SocketAnyEvent.swift */,
+				A8FF773F767E909FA900F67BAF08AF6A /* SocketClientManager.swift */,
+				BA28E93B3F91F281A7562A9D21D52D9C /* SocketEngine.swift */,
+				166FE6A4BC5475673619A7EDC6991C51 /* SocketEngineClient.swift */,
+				25C3095B25C6E5A4B8CF6B4236CDF1AF /* SocketEnginePacketType.swift */,
+				1539D268AB6B09F93E243519B2AE278F /* SocketEnginePollable.swift */,
+				DC1035ED4CAB59B50944F190B5B6E5ED /* SocketEngineSpec.swift */,
+				0A9E6DE3609E206DF66F748B3276E73E /* SocketEngineWebsocket.swift */,
+				2815F87124A5D4BE841207E934FA6D24 /* SocketEventHandler.swift */,
+				F37F6C04579156D158BC2A303AC08ED5 /* SocketExtensions.swift */,
+				B74B5E2E87423A29A9634BCAF68F39C8 /* SocketIOClient.swift */,
+				B8E646DB4E27C271B3772BD011E03A38 /* SocketIOClientOption.swift */,
+				822F51C720958FCAD37DFD889C32CA33 /* SocketIOClientSpec.swift */,
+				625EB61367D5A09ADDB64EBA4E8C3C9D /* SocketIOClientStatus.swift */,
+				D9D3C0A3B1755EA912B83795ED3063FB /* SocketLogger.swift */,
+				502EDA3C32A8FC048F415CE623D152DB /* SocketPacket.swift */,
+				D09B0AEC21752DCC4DFA00386555EBD5 /* SocketParsable.swift */,
+				AEB5025F8DFEEB35BA0CA8D68DBD5DBB /* SocketStringReader.swift */,
+				C7655864815FAB2CDD140E00E5078DBE /* SocketTypes.swift */,
+				1BDBAD22A8C5C840F186680CEB94E2B3 /* SSLSecurity.swift */,
+				7B922915C6A8FAB2E50CDFFC28FD0F01 /* WebSocket.swift */,
+				A4E1078ED347FE1F68D710BA603943A1 /* Support Files */,
+			);
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE02B4FC364C71CD7AA950A2E629A02 /* Pods-Arcohol */ = {
+			isa = PBXGroup;
+			children = (
+				6B335879329C16DE49266EEABC5A8C6C /* Info.plist */,
+				E3C064F8397C36D065779ECB096E0238 /* Pods-Arcohol.modulemap */,
+				401E355ACC7A4E12C202F216778E9B4E /* Pods-Arcohol-acknowledgements.markdown */,
+				0A16579676B5ECFFEB5DFADBCB295126 /* Pods-Arcohol-acknowledgements.plist */,
+				3BE41648AABD7EEF14E180A676511FFB /* Pods-Arcohol-dummy.m */,
+				0CFE4296667075DED87E834A607506D4 /* Pods-Arcohol-frameworks.sh */,
+				1B203281D5F24899CA64B5889E2E8643 /* Pods-Arcohol-resources.sh */,
+				40CD5CE0B1FA769C5E4189E9D0B2E83C /* Pods-Arcohol-umbrella.h */,
+				EFA56843B4CFBEEE36AD7836ACA072F6 /* Pods-Arcohol.debug.xcconfig */,
+				A815CCA81B4C721F1241E47248BE5DAD /* Pods-Arcohol.release.xcconfig */,
+			);
+			name = "Pods-Arcohol";
+			path = "Target Support Files/Pods-Arcohol";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0439CCC3C014A209FC4234CEF0BF940E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1EFE62F20C5AA3B3F9219C7D6912D51 /* Pods-Arcohol-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFD74671CC1E7B6518EFC34B382E70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D84525CA6F79641E42088DE55B70C /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60A840748AAEBEF9EB46021DC1FE227F /* Pods-Arcohol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657EB84CF38589CE7365C259E3425802 /* Build configuration list for PBXNativeTarget "Pods-Arcohol" */;
+			buildPhases = (
+				8AA0B4F8D027825F41D0C27E33427897 /* Sources */,
+				921FD2B33FDC97473EE6A7E37FE5245E /* Frameworks */,
+				0439CCC3C014A209FC4234CEF0BF940E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C0894E5D8F1290ADAD1008DFC713F89 /* PBXTargetDependency */,
+			);
+			name = "Pods-Arcohol";
+			productName = "Pods-Arcohol";
+			productReference = 069FB6E5640A7B99DEB8F8D257F66FE1 /* Pods_Arcohol.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		817A78155994576628C43D95A52F7D72 /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80894D3310EFBE9D1338B69302D12A9 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				5056A50BA7DA6DEBA32A4B5B79728E59 /* Sources */,
+				B86D9465EB2A2EB06FF85170C11F5A3A /* Frameworks */,
+				BCFD74671CC1E7B6518EFC34B382E70E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift";
+			productName = "Socket.IO-Client-Swift";
+			productReference = 4551330B1096E79150485203522B1A03 /* SocketIOClientSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1CDF3417F78DF43BBCE4EC9213580D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60A840748AAEBEF9EB46021DC1FE227F /* Pods-Arcohol */,
+				817A78155994576628C43D95A52F7D72 /* Socket.IO-Client-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5056A50BA7DA6DEBA32A4B5B79728E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14011724990E2F6C0AF7DDB854176638 /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				234F53C3472B6509B3808A7487CE8DBA /* SocketAckEmitter.swift in Sources */,
+				A061F7ED6F385A4065B69218A9D8C844 /* SocketAckManager.swift in Sources */,
+				5A8275AFF81D9C96BCDA17AF1C6D131F /* SocketAnyEvent.swift in Sources */,
+				03CB6B1C98525AD0979684C025FD5E5E /* SocketClientManager.swift in Sources */,
+				6B1F200197020B857719659A7E20B040 /* SocketEngine.swift in Sources */,
+				91B3FD542CF053544A54B194F5DA3EC8 /* SocketEngineClient.swift in Sources */,
+				817790FDBEB293D4B5A8F8051419F7EE /* SocketEnginePacketType.swift in Sources */,
+				7C3F612FB7AB60C7DB523BAF6D51328F /* SocketEnginePollable.swift in Sources */,
+				C2601C14EF4AF22724C31CBEE1371578 /* SocketEngineSpec.swift in Sources */,
+				DE3ADBE4B6F607DF2BA016A77F375D95 /* SocketEngineWebsocket.swift in Sources */,
+				527B8F6B91FD83DAA0347E3F062DE498 /* SocketEventHandler.swift in Sources */,
+				D085DEC0BAAA33ED2102E739CB7A2306 /* SocketExtensions.swift in Sources */,
+				CC9F84C5C170FB4E35314F8993B79659 /* SocketIOClient.swift in Sources */,
+				049DDDD7FE558D16C05DDC448352E073 /* SocketIOClientOption.swift in Sources */,
+				29FB02244BCA51391D906720112C1B76 /* SocketIOClientSpec.swift in Sources */,
+				912EA989E866FD86F1C237C184F54D6A /* SocketIOClientStatus.swift in Sources */,
+				5610EE1D21C36C0556713B72955A331F /* SocketLogger.swift in Sources */,
+				73424D948E7D2A6B01CB0C0C57F60B1B /* SocketPacket.swift in Sources */,
+				5AD7313D104764FF60FBFBFD76B1D8EF /* SocketParsable.swift in Sources */,
+				F0B2CB6984CD2572A4BC90A92DE712FF /* SocketStringReader.swift in Sources */,
+				4331472AD5477A7D9E2CB4DBB7F08132 /* SocketTypes.swift in Sources */,
+				6F4FE59B12D6BC7352222B79D6EFC44C /* SSLSecurity.swift in Sources */,
+				ED210888D25EAD27C921F2E220FCCE6F /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA0B4F8D027825F41D0C27E33427897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571467C4A2F3663C0419955437DF122F /* Pods-Arcohol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C0894E5D8F1290ADAD1008DFC713F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = 817A78155994576628C43D95A52F7D72 /* Socket.IO-Client-Swift */;
+			targetProxy = 15F1F6067A331CF280D87EC372AA9EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CA5CA2B9740377E0B7B194951A02652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA56843B4CFBEEE36AD7836ACA072F6 /* Pods-Arcohol.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcohol/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcohol/Pods-Arcohol.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcohol;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CC0FCCDCA0BA54856A56E4562F3AADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C50D7AABBEC7F19B9FD8A492CA6399E /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIOClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DB2B1580DF1236C35CABED7A593C77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C50D7AABBEC7F19B9FD8A492CA6399E /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIOClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9AA392B5956877172A1B18A204AF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A815CCA81B4C721F1241E47248BE5DAD /* Pods-Arcohol.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Arcohol/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Arcohol/Pods-Arcohol.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Arcohol;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657EB84CF38589CE7365C259E3425802 /* Build configuration list for PBXNativeTarget "Pods-Arcohol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA5CA2B9740377E0B7B194951A02652 /* Debug */,
+				AE9AA392B5956877172A1B18A204AF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80894D3310EFBE9D1338B69302D12A9 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB2B1580DF1236C35CABED7A593C77A /* Debug */,
+				5CC0FCCDCA0BA54856A56E4562F3AADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
