@@ -41,7 +41,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         socket.connect()
         // How to emit:
         // self.socket.emit("control", ["segmentSet": [1,2,3]])
-        topCollectionView.backgroundColor = UIColor.clearColor()
     }
 
     override func viewWillLayoutSubviews() {

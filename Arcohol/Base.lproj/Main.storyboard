@@ -22,6 +22,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="r0C-nf-6qF">
                                 <rect key="frame" x="0.0" y="20" width="600" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="6wg-Vy-Kv2"/>
                                 </constraints>
@@ -54,6 +55,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="X3J-xP-hGG" firstAttribute="bottom" secondItem="y4A-Am-cmr" secondAttribute="bottomMargin" id="0nX-l4-00R"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="yR1-Nk-PcQ" secondAttribute="trailing" constant="12" id="JSL-PL-hMl"/>
