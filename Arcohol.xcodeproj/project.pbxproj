@@ -14,6 +14,7 @@
 		9F1521AA1D64B44C00B264B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1521A81D64B44C00B264B0 /* LaunchScreen.storyboard */; };
 		9F1521B51D64B44C00B264B0 /* ArcoholTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1521B41D64B44C00B264B0 /* ArcoholTests.swift */; };
 		9F1521C01D64B44C00B264B0 /* ArcoholUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1521BF1D64B44C00B264B0 /* ArcoholUITests.swift */; };
+		9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */; };
 		ADED5A4A7FAAEB58E3F4CE5A /* Pods_Arcohol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC470D94A770592370B6469A /* Pods_Arcohol.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		9F1521BB1D64B44C00B264B0 /* ArcoholUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcoholUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1521BF1D64B44C00B264B0 /* ArcoholUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcoholUITests.swift; sourceTree = "<group>"; };
 		9F1521C11D64B44C00B264B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC470D94A770592370B6469A /* Pods_Arcohol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcohol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C016B2B82328F6D95A36AC /* Pods-Arcohol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcohol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcohol/Pods-Arcohol.debug.xcconfig"; sourceTree = "<group>"; };
 		C21443A2F8BB465444B72894 /* Pods-Arcohol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcohol.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arcohol/Pods-Arcohol.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,11 +115,14 @@
 			isa = PBXGroup;
 			children = (
 				9F15219F1D64B44C00B264B0 /* AppDelegate.swift */,
-				9F1521A11D64B44C00B264B0 /* ViewController.swift */,
-				9F1521A31D64B44C00B264B0 /* Main.storyboard */,
-				9F1521A61D64B44C00B264B0 /* Assets.xcassets */,
-				9F1521A81D64B44C00B264B0 /* LaunchScreen.storyboard */,
-				9F1521AB1D64B44C00B264B0 /* Info.plist */,
+				9FD100D11D6DE4DC009F83F5 /* Assets */,
+				9FD100D21D6DE4E3009F83F5 /* Extensions */,
+				9FD100D31D6DE4E9009F83F5 /* Components */,
+				9FD100D41D6DE4EF009F83F5 /* Managers */,
+				9FD100D81D6DE527009F83F5 /* Models */,
+				9FD100D51D6DE4F3009F83F5 /* Supporting Files */,
+				9FD100D61D6DE4FC009F83F5 /* Utilities */,
+				9FD100D71D6DE501009F83F5 /* Views */,
 			);
 			path = Arcohol;
 			sourceTree = "<group>";
@@ -138,6 +143,68 @@
 				9F1521C11D64B44C00B264B0 /* Info.plist */,
 			);
 			path = ArcoholUITests;
+			sourceTree = "<group>";
+		};
+		9FD100D11D6DE4DC009F83F5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9F1521A61D64B44C00B264B0 /* Assets.xcassets */,
+				9F1521A81D64B44C00B264B0 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9FD100D21D6DE4E3009F83F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9FD100D31D6DE4E9009F83F5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		9FD100D41D6DE4EF009F83F5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		9FD100D51D6DE4F3009F83F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1521AB1D64B44C00B264B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FD100D61D6DE4FC009F83F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9FD100D71D6DE501009F83F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */,
+				9F1521A31D64B44C00B264B0 /* Main.storyboard */,
+				9F1521A11D64B44C00B264B0 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9FD100D81D6DE527009F83F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		C15D82ECA12CDC70BE8544FB /* Pods */ = {
@@ -331,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */,
 				9F1521A21D64B44C00B264B0 /* ViewController.swift in Sources */,
 				9F1521A01D64B44C00B264B0 /* AppDelegate.swift in Sources */,
 			);

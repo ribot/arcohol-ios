@@ -9,9 +9,11 @@
 import UIKit
 import SocketIOClientSwift
 
-class ViewController: UITableViewController {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    private let reuseIdentifier = "TopCollectionViewCell"
+    @IBOutlet var topCollectionView: UICollectionView!
 
-    var array: NSMutableArray = []
+    var array: NSMutableArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"]
 
     let socket = SocketIOClient(socketURL: NSURL(string: "http://rpi-manuel.local")!, options: [.Log(true), .ForcePolling(true)])
 
@@ -31,26 +33,39 @@ class ViewController: UITableViewController {
                         self.array.addObject(myNumber)
                     }
                     dispatch_async(dispatch_get_main_queue(), {
-                        self.tableView.reloadData()
+                        // Reload the data
                     })
                 }
             }
         }
         socket.connect()
+        // How to emit:
+        // self.socket.emit("control", ["segmentSet": [1,2,3]])
+        topCollectionView.backgroundColor = UIColor.clearColor()
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        self.topCollectionView.collectionViewLayout.invalidateLayout()
+    }
+
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        return CGSize(width: self.topCollectionView.frame.height, height: self.topCollectionView.frame.height)
+    }
+
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return array.count
     }
 
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("identifierCell")!
-        cell.textLabel?.text = String(array[indexPath.row])
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = self.topCollectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
+        cell.label.text = array[indexPath.row] as? String
+        let image = UIImage(named: "meat.pdf")
+        cell.imageView.image = image
         return cell
     }
-
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        self.socket.emit("control", ["segmentSet": [array[indexPath.row]]])
-    }
-
 }
