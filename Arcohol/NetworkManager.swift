@@ -9,31 +9,39 @@
 import Foundation
 import SocketIOClientSwift
 
+// TODO: Fix and Create the network layer
+
 class NetworkManager {
 
     let socket = SocketIOClient(socketURL: NSURL(string: "http://rpi-manuel.local")!, options: [.Log(true), .ForcePolling(true)])
 
-    init() {
-        self.socket.on("connect") {data, ack in
-            print("socket connected")
-        }
-
+    func listenControl() {
+        // Call this only if the connection is open
         self.socket.on("control") {data, ack in
-            if let cur = data[0] as? NSDictionary {
-
-                if let segmentCount = cur["segmentCount"] as? NSInteger {
+//            if let cur = data[0] as? NSDictionary {
+//                if let segmentCount = cur["segmentCount"] as? NSInteger {
 //                    self.array.removeAllObjects()
 //                    for i in 0..<segmentCount + 1 {
-//                        let myNumber = NSNumber(integer:i)
-//                        self.array.addObject(myNumber)
+//                    let myNumber = NSNumber(integer:i)
+//                    self.array.addObject(myNumber)
 //                    }
-                    dispatch_async(dispatch_get_main_queue(), {
-                        // Reload the data
-                    })
-                }
-            }
+//                    dispatch_async(dispatch_get_main_queue(), {
+//                        // Reload the data
+//                    })
+//                }
+//            }
         }
-        socket.connect()
+    }
+
+    func connectSocket(completionHandler:(connected: Bool) -> ()) {
+        self.socket.reconnects = false
+        socket.on("error") {data in
+            completionHandler(connected:false)
+        }
+        self.socket.on("connect") {data, ack in
+            completionHandler(connected:true)
+        }
+        self.socket.connect()
     }
 
     func emitToSocket() {

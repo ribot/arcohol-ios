@@ -9,22 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    private let reuseIdentifier = "TopCollectionViewCell"
+    private let reuseTopIdentifier = "TopCollectionViewCell"
+    private let reuseBottomIdentifier = "BottomCollectionViewCell"
     @IBOutlet var topCollectionView: UICollectionView!
+    @IBOutlet var bottomCollectionView: UICollectionView!
 
     var array: NSMutableArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        NetworkManager.sharedInstance.connectSocket({ (connected) in
+            print("manolo")
+        })
     }
 
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         self.topCollectionView.collectionViewLayout.invalidateLayout()
+        self.bottomCollectionView.collectionViewLayout.invalidateLayout()
     }
 
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: self.topCollectionView.frame.height, height: self.topCollectionView.frame.height)
+        if collectionView == self.topCollectionView {
+            return CGSize(width: self.topCollectionView.frame.height, height: self.topCollectionView.frame.height)
+        } else {
+            return CGSize(width: self.bottomCollectionView.frame.height, height: self.bottomCollectionView.frame.height)
+        }
     }
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -36,10 +46,21 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = self.topCollectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
-        cell.label.text = array[indexPath.row] as? String
-        let image = UIImage(named: "meat.pdf")
-        cell.imageView.image = image
-        return cell
-    }
+
+        if collectionView == self.topCollectionView {
+            let cell = self.topCollectionView.dequeueReusableCellWithReuseIdentifier(reuseTopIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
+            cell.label.text = array[indexPath.row] as? String
+            let image = UIImage(named: "meat.pdf")
+            cell.imageView.image = image
+            return cell
+
+        } else {
+            let cell = self.bottomCollectionView.dequeueReusableCellWithReuseIdentifier(reuseBottomIdentifier, forIndexPath: indexPath) as! BottomCollectionViewCell
+            cell.label.text = array[indexPath.row] as? String
+            let image = UIImage(named: "meat.pdf")
+            cell.imageView.image = image
+            return cell
+
+        }
+      }
 }
