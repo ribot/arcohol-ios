@@ -22,13 +22,13 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csW-ky-Q3q">
                                 <rect key="frame" x="0.0" y="180" width="600" height="420"/>
                                 <connections>
-                                    <segue destination="aBP-vE-87g" kind="embed" id="BPv-RR-fVE"/>
+                                    <segue destination="aBP-vE-87g" kind="embed" identifier="BottomCollectionView" id="BPv-RR-fVE"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrF-xj-KBR">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="180"/>
                                 <connections>
-                                    <segue destination="kQT-qX-C9W" kind="embed" id="xt5-wr-KyK"/>
+                                    <segue destination="kQT-qX-C9W" kind="embed" identifier="TopCollectionView" id="xt5-wr-KyK"/>
                                 </connections>
                             </containerView>
                         </subviews>
