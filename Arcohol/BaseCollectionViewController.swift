@@ -9,7 +9,12 @@
 import Foundation
 import UIKit
 
+protocol ContainterViewControllerProtocol {
+    func didSelectItem()
+}
+
 class BaseCollectionViewController: UICollectionViewController {
+    var delegate: ContainterViewControllerProtocol?
 
     private let reuseBottomIdentifier = "BottomCollectionViewCell"
     var array: NSMutableArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"]
@@ -20,5 +25,9 @@ class BaseCollectionViewController: UICollectionViewController {
 
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         return CGSize(width: self.collectionView!.frame.height, height: self.collectionView!.frame.height)
+    }
+
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        self.delegate?.didSelectItem()
     }
 }

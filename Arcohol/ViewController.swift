@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ContainterViewControllerProtocol {
 
     var containerTopCollectionViewController: TopCollectionViewController?
     var containerBottomCollectionViewController: BottomCollectionViewController?
@@ -17,14 +17,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    func didSelectItem() {
+        print("didSelectItem")
+    }
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "TopCollectionView") {
             guard segue.destinationViewController.isKindOfClass(TopCollectionViewController) else { return }
             containerTopCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
+            containerTopCollectionViewController?.delegate = self
         }
         if (segue.identifier == "BottomCollectionView") {
             guard segue.destinationViewController.isKindOfClass(BottomCollectionViewController) else { return }
             containerBottomCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
+            containerBottomCollectionViewController?.delegate = self
         }
     }
 }
