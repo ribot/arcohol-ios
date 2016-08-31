@@ -7,50 +7,30 @@
 //
 
 import UIKit
-import SocketIOClientSwift
 
-class ViewController: UITableViewController {
+class ViewController: UIViewController, ContainterViewControllerProtocol {
 
-    var array: NSMutableArray = []
-
-    let socket = SocketIOClient(socketURL: NSURL(string: "http://rpi-manuel.local")!, options: [.Log(true), .ForcePolling(true)])
+    var containerTopCollectionViewController: TopCollectionViewController?
+    var containerBottomCollectionViewController: BottomCollectionViewController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.socket.on("connect") {data, ack in
-            print("socket connected")
+    }
+
+    func didSelectItem() {
+        print("didSelectItem")
+    }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "TopCollectionView") {
+            guard segue.destinationViewController.isKindOfClass(TopCollectionViewController) else { return }
+            containerTopCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
+            containerTopCollectionViewController?.delegate = self
         }
-
-        self.socket.on("control") {data, ack in
-            if let cur = data[0] as? NSDictionary {
-
-                if let segmentCount = cur["segmentCount"] as? NSInteger {
-                    self.array.removeAllObjects()
-                    for i in 0..<segmentCount + 1 {
-                        let myNumber = NSNumber(integer:i)
-                        self.array.addObject(myNumber)
-                    }
-                    dispatch_async(dispatch_get_main_queue(), {
-                        self.tableView.reloadData()
-                    })
-                }
-            }
+        if (segue.identifier == "BottomCollectionView") {
+            guard segue.destinationViewController.isKindOfClass(BottomCollectionViewController) else { return }
+            containerBottomCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
+            containerBottomCollectionViewController?.delegate = self
         }
-        socket.connect()
     }
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array.count
-    }
-
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("identifierCell")!
-        cell.textLabel?.text = String(array[indexPath.row])
-        return cell
-    }
-
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        self.socket.emit("control", ["segmentSet": [array[indexPath.row]]])
-    }
-
 }
