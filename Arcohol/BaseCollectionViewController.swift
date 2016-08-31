@@ -17,7 +17,11 @@ class BaseCollectionViewController: UICollectionViewController {
     var delegate: ContainterViewControllerProtocol?
 
     private let reuseBottomIdentifier = "BottomCollectionViewCell"
-    var array: NSMutableArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"]
+    var array: NSArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"] {
+        didSet {
+            self.collectionView?.reloadData()
+        }
+    }
 
     override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         self.collectionView!.collectionViewLayout.invalidateLayout()

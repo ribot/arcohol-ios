@@ -19,15 +19,16 @@ class ViewController: UIViewController, ContainterViewControllerProtocol {
 
     func didSelectItem() {
         print("didSelectItem")
+        containerBottomCollectionViewController?.array = ["manu", "manu"]
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier == "TopCollectionView") {
+        if (segue.identifier == Constants.SegueIdentifiers.topCollectionView) {
             guard segue.destinationViewController.isKindOfClass(TopCollectionViewController) else { return }
             containerTopCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
             containerTopCollectionViewController?.delegate = self
         }
-        if (segue.identifier == "BottomCollectionView") {
+        if (segue.identifier == Constants.SegueIdentifiers.bottomCollectionView) {
             guard segue.destinationViewController.isKindOfClass(BottomCollectionViewController) else { return }
             containerBottomCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
             containerBottomCollectionViewController?.delegate = self
