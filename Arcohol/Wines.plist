@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>categoryName</key>
+		<string>Meat</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>3</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>5</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>7</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>9</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>11</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Fish</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>4</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>8</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>10</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>12</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>14</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Pasta</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>13</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>15</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>17</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>19</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>21</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>23</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>25</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Cheese</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>16</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>18</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>20</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>22</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>24</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>26</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>28</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Dessert</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Vegetables</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>categoryName</key>
+		<string>Ocassions</string>
+		<key>categoryImageName</key>
+		<string>meat</string>
+		<key>wineArray</key>
+		<array>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Campo Viejo</string>
+				<key>wineImageName</key>
+				<string>meat</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

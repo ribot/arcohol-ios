@@ -6,32 +6,70 @@
 //  Copyright © 2016 Manuel Marcos Regalado. All rights reserved.
 //
 
+// There are 32 sections
+
 import UIKit
 
 class ViewController: UIViewController, ContainterViewControllerProtocol {
 
-    var containerTopCollectionViewController: TopCollectionViewController?
-    var containerBottomCollectionViewController: BottomCollectionViewController?
+    var topContainerCollectionViewController: TopCollectionViewController?
+    var bottomContainerCollectionViewController: BottomCollectionViewController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_UTILITY.rawValue), 0)) {
+            do {
+                self.topContainerCollectionViewController?.array = try WineDataManager.sharedInstance.importCollectionOfWineCategories()
+            } catch WineDataManager.WineCategoryError.FileNotFound {
+                print("FileNotFound")
+            } catch WineDataManager.WineCategoryError.MalformedDictionary {
+                print("MalformedDictionary")
+            } catch WineDataManager.WineCategoryError.WineArrayNotFound {
+                print("WineArrayNotFound")
+            } catch WineDataManager.WineCategoryError.WineNotFound {
+                print("WineNotFound")
+            } catch WineDataManager.WineCategoryError.CategoryNotFound {
+                print("CategoryNotFound")
+            } catch {
+                print("some error")
+            }
+        }
     }
 
-    func didSelectItem() {
-        print("didSelectItem")
-        containerBottomCollectionViewController?.array = ["manu", "manu"]
+    func didSelectCategory(wineArray: [Wine]) {
+        self.bottomContainerCollectionViewController?.array = wineArray
+        // TODO: Create a clousure that returns an array with all the winesegments
+
+        var mutableArray = [Int]()
+        for wine: Wine in wineArray {
+            mutableArray.append(wine.wineSegment)
+        }
+
+        NetworkManager.sharedInstance.emitToSocket(mutableArray) { (success) in
+            if !success {
+                print("Error")
+            }
+        }
+    }
+
+    func didSelectWine(row: Int) {
+        NetworkManager.sharedInstance.emitToSocket([(self.bottomContainerCollectionViewController?.array[row].wineSegment)!]) { (success) in
+            if !success {
+                print("Error")
+            }
+        }
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == Constants.SegueIdentifiers.topCollectionView) {
             guard segue.destinationViewController.isKindOfClass(TopCollectionViewController) else { return }
-            containerTopCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
-            containerTopCollectionViewController?.delegate = self
+            topContainerCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
+            topContainerCollectionViewController?.delegate = self
         }
         if (segue.identifier == Constants.SegueIdentifiers.bottomCollectionView) {
             guard segue.destinationViewController.isKindOfClass(BottomCollectionViewController) else { return }
-            containerBottomCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
-            containerBottomCollectionViewController?.delegate = self
+            bottomContainerCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
+            bottomContainerCollectionViewController?.delegate = self
         }
     }
 }

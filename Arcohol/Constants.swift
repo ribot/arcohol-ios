@@ -13,4 +13,7 @@ struct Constants {
         static let topCollectionView = "TopCollectionView"
         static let bottomCollectionView = "BottomCollectionView"
     }
+    struct EndPoints {
+        static let raspberryPiEndPoint = "http://rpi-arcohol.local"
+    }
 }

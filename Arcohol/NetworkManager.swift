@@ -13,47 +13,38 @@ import SocketIOClientSwift
 
 class NetworkManager {
 
-    let socket = SocketIOClient(socketURL: NSURL(string: "http://rpi-manuel.local")!, options: [.Log(true), .ForcePolling(true)])
+    let socket = SocketIOClient(socketURL: NSURL(string: Constants.EndPoints.raspberryPiEndPoint)!, options: [.Log(true), .ForcePolling(true)])
 
-    func listenControl() {
-        // Call this only if the connection is open
-        self.socket.on("control") {data, ack in
-//            if let cur = data[0] as? NSDictionary {
-//                if let segmentCount = cur["segmentCount"] as? NSInteger {
-//                    self.array.removeAllObjects()
-//                    for i in 0..<segmentCount + 1 {
-//                    let myNumber = NSNumber(integer:i)
-//                    self.array.addObject(myNumber)
-//                    }
-//                    dispatch_async(dispatch_get_main_queue(), {
-//                        // Reload the data
-//                    })
-//                }
-//            }
+    private func connectSocket(completionHandler:(connected: Bool) -> ()) {
+
+        if self.socket.status == SocketIOClientStatus.Connected {
+            completionHandler(connected: true)
         }
-    }
-
-    func connectSocket(completionHandler:(connected: Bool) -> ()) {
         self.socket.reconnects = false
         socket.on("error") {data in
-            completionHandler(connected:false)
+            completionHandler(connected: false)
         }
-        self.socket.on("connect") {data, ack in
-            completionHandler(connected:true)
+        self.socket.on("control") {data, ack in
+            completionHandler(connected: true)
         }
         self.socket.connect()
     }
 
-    func emitToSocket() {
-        // Make sure that we are connected before we do anything else
-        if self.socket.status == SocketIOClientStatus.Connected {
-            // How to emit:
-            self.socket.emit("control", ["segmentSet": [1, 2, 3]])
+    private func emit(segmentsArray: [Int]) {
+        self.socket.emit("control", ["segmentSet": segmentsArray])
+    }
 
+    func emitToSocket(segmentsArray: [Int], completionHandler:(success: Bool) -> ()) {
+        self.connectSocket { (connected) in
+            if connected {
+                self.emit(segmentsArray)
+                completionHandler(success: true)
+            } else {
+                completionHandler(success: false)
+            }
         }
     }
 
     // MARK: - Shared Instance
-
     static let sharedInstance = NetworkManager()
 }

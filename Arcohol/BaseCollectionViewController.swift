@@ -10,18 +10,13 @@ import Foundation
 import UIKit
 
 protocol ContainterViewControllerProtocol {
-    func didSelectItem()
+    func didSelectCategory(wineArray: [Wine])
+    func didSelectWine(row: Int)
 }
 
 class BaseCollectionViewController: UICollectionViewController {
     var delegate: ContainterViewControllerProtocol?
-
     private let reuseBottomIdentifier = "BottomCollectionViewCell"
-    var array: NSArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"] {
-        didSet {
-            self.collectionView?.reloadData()
-        }
-    }
 
     override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
         self.collectionView!.collectionViewLayout.invalidateLayout()
@@ -29,9 +24,5 @@ class BaseCollectionViewController: UICollectionViewController {
 
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         return CGSize(width: self.collectionView!.frame.height, height: self.collectionView!.frame.height)
-    }
-
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        self.delegate?.didSelectItem()
     }
 }

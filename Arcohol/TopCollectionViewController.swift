@@ -11,6 +11,13 @@ import UIKit
 
 class TopCollectionViewController: BaseCollectionViewController {
     private let reuseTopIdentifier = "TopCollectionViewCell"
+    var array: [WineCategory] = [] {
+        didSet {
+            dispatch_async(dispatch_get_main_queue()) { [unowned self] in
+                self.collectionView?.reloadData()
+            }
+        }
+    }
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return array.count
@@ -22,9 +29,13 @@ class TopCollectionViewController: BaseCollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = self.collectionView!.dequeueReusableCellWithReuseIdentifier(reuseTopIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
-        cell.label.text = array[indexPath.row] as? String
+        cell.label.text = array[indexPath.row].wineCategoryName
         let image = UIImage(named: "meat.pdf")
         cell.imageView.image = image
         return cell
+    }
+
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        self.delegate?.didSelectCategory(array[indexPath.row].winesArray)
     }
 }
