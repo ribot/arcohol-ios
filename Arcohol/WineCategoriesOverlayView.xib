@@ -57,14 +57,47 @@
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="WmB-b5-5Uq"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-CL-H2I" customClass="Category" customModule="Arcohol" customModuleProvider="target">
+                    <rect key="frame" x="743" y="182" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="MeH-CL-H2I" secondAttribute="height" multiplier="1:1" id="3gy-QT-5G2"/>
+                        <constraint firstAttribute="height" priority="750" constant="200" id="u0c-xV-MaS"/>
+                        <constraint firstAttribute="width" priority="750" constant="200" id="wVW-Ss-vvY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-7u-uC2" customClass="Category" customModule="Arcohol" customModuleProvider="target">
+                    <rect key="frame" x="444" y="382" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="i4Q-7u-uC2" secondAttribute="height" multiplier="1:1" id="39f-ig-IWE"/>
+                        <constraint firstAttribute="width" constant="200" id="65A-Fe-IX2"/>
+                        <constraint firstAttribute="height" constant="200" id="MyL-Jp-a2z"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="39f-ig-IWE"/>
+                            <exclude reference="65A-Fe-IX2"/>
+                            <exclude reference="MyL-Jp-a2z"/>
+                        </mask>
+                    </variation>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="i4Q-7u-uC2" firstAttribute="height" secondItem="eMQ-MX-O6H" secondAttribute="height" id="84p-9e-RrV"/>
+                <constraint firstItem="MeH-CL-H2I" firstAttribute="top" secondItem="eMQ-MX-O6H" secondAttribute="top" id="ERP-f6-dp4"/>
+                <constraint firstItem="MeH-CL-H2I" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GUU-xy-bjt"/>
                 <constraint firstItem="Bt1-YG-ccX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Icg-Cw-4z5"/>
+                <constraint firstItem="i4Q-7u-uC2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MyK-2U-pHs"/>
                 <constraint firstItem="Bt1-YG-ccX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="N0X-8a-lax"/>
                 <constraint firstItem="kBx-4H-vYz" firstAttribute="top" secondItem="Bt1-YG-ccX" secondAttribute="bottom" constant="8" id="Nfm-Rh-4Fh"/>
+                <constraint firstItem="MeH-CL-H2I" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eMQ-MX-O6H" secondAttribute="trailing" constant="99" id="Qix-6e-MjE"/>
+                <constraint firstItem="i4Q-7u-uC2" firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="height" multiplier="1:1" id="REa-jV-U67"/>
+                <constraint firstItem="i4Q-7u-uC2" firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="width" id="TPL-VQ-TjB"/>
                 <constraint firstItem="9P7-6s-7d1" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YNP-DH-tw4"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="baseline" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fbu-hN-M88"/>
+                <constraint firstItem="i4Q-7u-uC2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gbH-Id-Vaw"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="top" secondItem="kBx-4H-vYz" secondAttribute="bottom" priority="752" constant="22" id="naH-qj-1Vb"/>
                 <constraint firstItem="9P7-6s-7d1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="144" id="pfZ-w6-hYv"/>
                 <constraint firstItem="9P7-6s-7d1" firstAttribute="top" secondItem="eMQ-MX-O6H" secondAttribute="top" id="qKr-dZ-kuc"/>
@@ -72,11 +105,13 @@
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uJa-YT-ofB"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uVt-6z-Sia"/>
                 <constraint firstItem="kBx-4H-vYz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w7M-aa-F0q"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MeH-CL-H2I" secondAttribute="trailing" constant="144" id="yDV-NI-V4a"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
                     <exclude reference="uJa-YT-ofB"/>
+                    <exclude reference="REa-jV-U67"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="747.5" y="537"/>
