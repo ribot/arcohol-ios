@@ -30,15 +30,15 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMQ-MX-O6H" customClass="Category" customModule="Arcohol" customModuleProvider="target">
-                    <rect key="frame" x="444" y="182" width="200" height="200"/>
+                    <rect key="frame" x="443.5" y="182.5" width="200" height="199.5"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="999" constant="200" id="hU3-5J-HeB"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="750" constant="50" id="hU3-5J-HeB"/>
                         <constraint firstAttribute="height" constant="200" id="nDL-Kt-9V8"/>
                         <constraint firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="height" multiplier="1:1" id="qCA-ug-IkW"/>
                         <constraint firstAttribute="width" constant="200" id="qxK-kS-Rgg"/>
                         <constraint firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="height" multiplier="1:1" priority="999" id="wav-pi-qK0"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="999" constant="200" id="xjm-hu-Z1k"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="750" constant="50" id="xjm-hu-Z1k"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
@@ -48,14 +48,27 @@
                         </mask>
                     </variation>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9P7-6s-7d1" customClass="Category" customModule="Arcohol" customModuleProvider="target">
+                    <rect key="frame" x="144" y="182" width="199.5" height="199.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="6Re-cB-ABs"/>
+                        <constraint firstAttribute="width" secondItem="9P7-6s-7d1" secondAttribute="height" multiplier="1:1" id="IfW-gp-Xrh"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="WmB-b5-5Uq"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="Bt1-YG-ccX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Icg-Cw-4z5"/>
                 <constraint firstItem="Bt1-YG-ccX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="N0X-8a-lax"/>
                 <constraint firstItem="kBx-4H-vYz" firstAttribute="top" secondItem="Bt1-YG-ccX" secondAttribute="bottom" constant="8" id="Nfm-Rh-4Fh"/>
+                <constraint firstItem="9P7-6s-7d1" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YNP-DH-tw4"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="baseline" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fbu-hN-M88"/>
-                <constraint firstItem="eMQ-MX-O6H" firstAttribute="top" secondItem="kBx-4H-vYz" secondAttribute="bottom" constant="52" id="naH-qj-1Vb"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="top" secondItem="kBx-4H-vYz" secondAttribute="bottom" priority="752" constant="52" id="naH-qj-1Vb"/>
+                <constraint firstItem="9P7-6s-7d1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="144" id="pfZ-w6-hYv"/>
+                <constraint firstItem="9P7-6s-7d1" firstAttribute="top" secondItem="eMQ-MX-O6H" secondAttribute="top" id="qKr-dZ-kuc"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9P7-6s-7d1" secondAttribute="trailing" constant="100" id="t0w-ZO-bfO"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uJa-YT-ofB"/>
                 <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uVt-6z-Sia"/>
                 <constraint firstItem="kBx-4H-vYz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w7M-aa-F0q"/>
