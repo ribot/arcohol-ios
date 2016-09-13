@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WineCategoriesOverlayView" customModule="Arcohol" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="vlG-BI-qal"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1087" height="764"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bt1-YG-ccX">
+                    <rect key="frame" x="492" y="50" width="104" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIND A DRINK TO GO WITH..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBx-4H-vYz">
+                    <rect key="frame" x="317" y="88" width="454" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMQ-MX-O6H" customClass="Category" customModule="Arcohol" customModuleProvider="target">
+                    <rect key="frame" x="444" y="182" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="999" constant="200" id="hU3-5J-HeB"/>
+                        <constraint firstAttribute="height" constant="200" id="nDL-Kt-9V8"/>
+                        <constraint firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="height" multiplier="1:1" id="qCA-ug-IkW"/>
+                        <constraint firstAttribute="width" constant="200" id="qxK-kS-Rgg"/>
+                        <constraint firstAttribute="width" secondItem="eMQ-MX-O6H" secondAttribute="height" multiplier="1:1" priority="999" id="wav-pi-qK0"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="999" constant="200" id="xjm-hu-Z1k"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="nDL-Kt-9V8"/>
+                            <exclude reference="qxK-kS-Rgg"/>
+                            <exclude reference="wav-pi-qK0"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bt1-YG-ccX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="Icg-Cw-4z5"/>
+                <constraint firstItem="Bt1-YG-ccX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="N0X-8a-lax"/>
+                <constraint firstItem="kBx-4H-vYz" firstAttribute="top" secondItem="Bt1-YG-ccX" secondAttribute="bottom" constant="8" id="Nfm-Rh-4Fh"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="baseline" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fbu-hN-M88"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="top" secondItem="kBx-4H-vYz" secondAttribute="bottom" constant="52" id="naH-qj-1Vb"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uJa-YT-ofB"/>
+                <constraint firstItem="eMQ-MX-O6H" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uVt-6z-Sia"/>
+                <constraint firstItem="kBx-4H-vYz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w7M-aa-F0q"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="uJa-YT-ofB"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="747.5" y="537"/>
+        </view>
+    </objects>
+</document>
