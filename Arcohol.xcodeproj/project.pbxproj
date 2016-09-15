@@ -126,10 +126,18 @@
 			children = (
 				9F0D5A381D880A740051DD69 /* WineCategoriesOverlayView.swift */,
 				9F0D5A3A1D880AA20051DD69 /* WineCategoriesOverlayView.xib */,
+				9F0D5A831D885BB30051DD69 /* Category View */,
+			);
+			name = "Wine Category View";
+			sourceTree = "<group>";
+		};
+		9F0D5A831D885BB30051DD69 /* Category View */ = {
+			isa = PBXGroup;
+			children = (
 				9F0D5A811D884A420051DD69 /* Category.swift */,
 				9F0D5A7F1D884A390051DD69 /* Category.xib */,
 			);
-			name = "Wine Category View";
+			name = "Category View";
 			sourceTree = "<group>";
 		};
 		9F1521931D64B44C00B264B0 = {
@@ -188,24 +196,24 @@
 			path = ArcoholUITests;
 			sourceTree = "<group>";
 		};
-		9F4C78D21D76D60E0001856D /* Top View */ = {
+		9F4C78D21D76D60E0001856D /* Bottom View */ = {
 			isa = PBXGroup;
 			children = (
 				9F3A73B31D75E61E005C4851 /* BottomCollectionViewController.swift */,
 				9F3A73AC1D75E540005C4851 /* TopCollectionView.storyboard */,
 				9F4C78D51D76D6400001856D /* Cell */,
 			);
-			name = "Top View";
+			name = "Bottom View";
 			sourceTree = "<group>";
 		};
-		9F4C78D31D76D6140001856D /* Bottom View */ = {
+		9F4C78D31D76D6140001856D /* Top View */ = {
 			isa = PBXGroup;
 			children = (
 				9F3A73B11D75E614005C4851 /* TopCollectionViewController.swift */,
 				9F3A73AF1D75E54E005C4851 /* BottomCollectionView.storyboard */,
 				9F4C78D41D76D62F0001856D /* Cell */,
 			);
-			name = "Bottom View";
+			name = "Top View";
 			sourceTree = "<group>";
 		};
 		9F4C78D41D76D62F0001856D /* Cell */ = {
@@ -295,8 +303,8 @@
 				9F0D5A371D880A540051DD69 /* Wine Category View */,
 				9F1521A11D64B44C00B264B0 /* ViewController.swift */,
 				9F1521A31D64B44C00B264B0 /* Main.storyboard */,
-				9F4C78D21D76D60E0001856D /* Top View */,
-				9F4C78D31D76D6140001856D /* Bottom View */,
+				9F4C78D31D76D6140001856D /* Top View */,
+				9F4C78D21D76D60E0001856D /* Bottom View */,
 			);
 			name = Views;
 			sourceTree = "<group>";

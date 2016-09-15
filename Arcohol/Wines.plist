@@ -6,7 +6,7 @@
 		<key>categoryName</key>
 		<string>Meat</string>
 		<key>categoryImageName</key>
-		<string>meat</string>
+		<string>iconMeatNormal</string>
 		<key>wineArray</key>
 		<array>
 			<dict>
@@ -394,7 +394,7 @@
 	</dict>
 	<dict>
 		<key>categoryName</key>
-		<string>Ocassions</string>
+		<string>Occasions</string>
 		<key>categoryImageName</key>
 		<string>meat</string>
 		<key>wineArray</key>

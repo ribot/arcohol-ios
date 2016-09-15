@@ -11,6 +11,12 @@ import UIKit
 
 class WineCategoriesOverlayView: UIView {
     @IBOutlet private var contentView: UIView?
+    @IBOutlet private var categoryMeat: UIView?
+    @IBOutlet private var categoryFish: UIView?
+//    @IBOutlet private var categoryMeat: UIView?
+//    @IBOutlet private var categoryMeat: UIView?
+//    @IBOutlet private var categoryMeat: UIView?
+//    @IBOutlet private var categoryMeat: UIView?
 
     // for using CustomView in code
     override init(frame: CGRect) {
@@ -31,5 +37,10 @@ class WineCategoriesOverlayView: UIView {
         content.frame = self.bounds
         content.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         self.addSubview(content)
+        categoryMeat?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+    }
+
+    func viewTapped() {
+        print("hola")
     }
 }

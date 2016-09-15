@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WineCategoriesOverlayView" customModule="Arcohol" customModuleProvider="target">
             <connections>
+                <outlet property="categoryMeat" destination="9P7-6s-7d1" id="v8y-g3-H85"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="vlG-BI-qal"/>
             </connections>
         </placeholder>

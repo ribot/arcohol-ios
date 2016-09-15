@@ -30,7 +30,8 @@ class TopCollectionViewController: BaseCollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = self.collectionView!.dequeueReusableCellWithReuseIdentifier(reuseTopIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
         cell.label.text = array[indexPath.row].wineCategoryName
-        let image = UIImage(named: "meat.pdf")
+        let imageName = "icon\(array[indexPath.row].wineCategoryName)Normal"
+        let image = UIImage(named: imageName)
         cell.imageView.image = image
         return cell
     }
