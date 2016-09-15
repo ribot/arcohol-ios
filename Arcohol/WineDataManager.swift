@@ -49,11 +49,10 @@ class WineDataManager {
                 let wine: Wine = Wine(wineName: wineName, wineSegment: numberFromString, wineImageName: wineImageName)
                 mutableWineArray.append(wine)
             }
-            guard let categoryName = categoryDictionary["categoryName"] as? String,
-                let categoryImageName = categoryDictionary["categoryImageName"] as? String else {
+            guard let categoryName = categoryDictionary["categoryName"] as? String else {
                     throw WineCategoryError.CategoryNotFound
             }
-            let category: WineCategory = WineCategory(wineCategoryName: categoryName, wineCategoryImageName: categoryImageName, winesArray: mutableWineArray)
+            let category: WineCategory = WineCategory(wineCategoryName: categoryName, winesArray: mutableWineArray)
             mutableCategoryArray.append(category)
         }
         return mutableCategoryArray

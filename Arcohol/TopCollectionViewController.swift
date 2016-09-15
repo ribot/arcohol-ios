@@ -30,13 +30,36 @@ class TopCollectionViewController: BaseCollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = self.collectionView!.dequeueReusableCellWithReuseIdentifier(reuseTopIdentifier, forIndexPath: indexPath) as! TopCollectionViewCell
         cell.label.text = array[indexPath.row].wineCategoryName
-        let imageName = "icon\(array[indexPath.row].wineCategoryName)Normal"
-        let image = UIImage(named: imageName)
+        let image = UIImage(named: cell.selected ? array[indexPath.row].wineCategoryImageNameHighlight() : array[indexPath.row].wineCategoryImageNameNormal())
         cell.imageView.image = image
         return cell
     }
 
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         self.delegate?.didSelectCategory(array[indexPath.row].winesArray)
+        if let cell = collectionView.cellForItemAtIndexPath(indexPath) as? TopCollectionViewCell {
+            self.categoryCellSelected(true, cell: cell, index: indexPath.row)
+        }
     }
+
+    override func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+        if let cell = collectionView.cellForItemAtIndexPath(indexPath) as? TopCollectionViewCell {
+            self.categoryCellSelected(false, cell: cell, index: indexPath.row)
+        }
+    }
+
+    func findItemRowForName(name: String) {
+        if let index = array.indexOf({$0.wineCategoryName == name}) {
+            let indexPath = NSIndexPath(forItem:index, inSection: 0)
+            self.collectionView?.scrollToItemAtIndexPath(NSIndexPath(forItem:index, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.Left, animated: true)
+            if let cell = self.collectionView?.cellForItemAtIndexPath(indexPath) as? TopCollectionViewCell {
+                self.categoryCellSelected(true, cell: cell, index: indexPath.row)
+            }
+        }
+    }
+
+    func categoryCellSelected(selected: Bool, cell: TopCollectionViewCell, index: Int) {
+        cell.imageView.image = UIImage(named: selected ? array[index].wineCategoryImageNameHighlight() : array[index].wineCategoryImageNameNormal())
+    }
+
 }

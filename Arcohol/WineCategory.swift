@@ -10,25 +10,22 @@ import Foundation
 
 struct WineCategory {
     let wineCategoryName: String
-    let wineCategoryImageName: String
     let winesArray: [Wine]
 
-    init(wineCategoryName: String, wineCategoryImageName: String, winesArray: [Wine]) {
+    init(wineCategoryName: String, winesArray: [Wine]) {
         self.wineCategoryName = wineCategoryName
-        self.wineCategoryImageName = wineCategoryImageName
         self.winesArray = winesArray
     }
 
+    func wineCategoryImageNameNormal() -> String {
+        return "icon\(self.wineCategoryName)Normal"
+    }
 
+    func wineCategoryImageNameHighlight() -> String {
+        return "icon\(self.wineCategoryName)Highlight"
+    }
 
-
-
-
-
-
-
-
-
-
-
+    func equalToName(name: String) -> Bool {
+        return true
+    }
 }

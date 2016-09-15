@@ -11,6 +11,12 @@ import UIKit
 
 class Category: UIView {
     @IBOutlet private var contentView: UIView?
+    @IBOutlet var imageView: UIImageView?
+    var name: String? {
+        didSet {
+            imageView?.image = UIImage.init(named: "icon\(self.name!)Normal")
+        }
+    }
 
     // for using CustomView in code
     override init(frame: CGRect) {

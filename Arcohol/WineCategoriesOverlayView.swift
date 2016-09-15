@@ -9,14 +9,19 @@
 import Foundation
 import UIKit
 
+protocol WineCategoriesOverlayViewProtocol {
+    func categoryNameTapped(name: String)
+}
+
 class WineCategoriesOverlayView: UIView {
-    @IBOutlet private var contentView: UIView?
-    @IBOutlet private var categoryMeat: UIView?
-    @IBOutlet private var categoryFish: UIView?
-//    @IBOutlet private var categoryMeat: UIView?
-//    @IBOutlet private var categoryMeat: UIView?
-//    @IBOutlet private var categoryMeat: UIView?
-//    @IBOutlet private var categoryMeat: UIView?
+    @IBOutlet private var contentView: Category?
+    @IBOutlet private var categoryMeat: Category?
+    @IBOutlet private var categoryFish: Category?
+    @IBOutlet private var categoryPasta: Category?
+    @IBOutlet private var categoryCheese: Category?
+    @IBOutlet private var categoryVegetables: Category?
+    @IBOutlet private var categoryOccasions: Category?
+    var wineCategoryOverlayViewProtocolDelegate: WineCategoriesOverlayViewProtocol?
 
     // for using CustomView in code
     override init(frame: CGRect) {
@@ -36,11 +41,29 @@ class WineCategoriesOverlayView: UIView {
         guard let content = contentView else { return }
         content.frame = self.bounds
         content.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
+        self.setUpViews()
         self.addSubview(content)
-        categoryMeat?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
     }
 
-    func viewTapped() {
-        print("hola")
+    func setUpViews() {
+        categoryMeat?.name = "Meat"
+        categoryFish?.name = "Fish"
+        categoryPasta?.name = "Pasta"
+        categoryCheese?.name = "Cheese"
+        categoryVegetables?.name = "Vegetables"
+        categoryOccasions?.name = "Occasions"
+
+        categoryMeat?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+        categoryFish?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+        categoryPasta?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+        categoryCheese?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+        categoryVegetables?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+        categoryOccasions?.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(WineCategoriesOverlayView.viewTapped)))
+    }
+
+    func viewTapped(sender: UITapGestureRecognizer) {
+        if let view = sender.view as? Category {
+            self.wineCategoryOverlayViewProtocolDelegate?.categoryNameTapped(view.name!)
+        }
     }
 }

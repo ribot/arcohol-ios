@@ -9,7 +9,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WineCategoriesOverlayView" customModule="Arcohol" customModuleProvider="target">
             <connections>
+                <outlet property="categoryCheese" destination="Xzg-U2-RYd" id="y0c-zR-3pm"/>
+                <outlet property="categoryFish" destination="eMQ-MX-O6H" id="eaM-Ku-rhU"/>
                 <outlet property="categoryMeat" destination="9P7-6s-7d1" id="v8y-g3-H85"/>
+                <outlet property="categoryOccasions" destination="ga2-ny-sVG" id="MTN-fe-Geq"/>
+                <outlet property="categoryPasta" destination="MeH-CL-H2I" id="UMQ-O8-O5L"/>
+                <outlet property="categoryVegetables" destination="i4Q-7u-uC2" id="FPY-9E-9hQ"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="vlG-BI-qal"/>
             </connections>
         </placeholder>
@@ -31,7 +36,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMQ-MX-O6H" customClass="Category" customModule="Arcohol" customModuleProvider="target">
-                    <rect key="frame" x="443.5" y="182.5" width="200" height="199.5"/>
+                    <rect key="frame" x="444" y="182" width="200" height="200"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="750" constant="50" id="hU3-5J-HeB"/>
@@ -48,15 +53,6 @@
                             <exclude reference="wav-pi-qK0"/>
                         </mask>
                     </variation>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9P7-6s-7d1" customClass="Category" customModule="Arcohol" customModuleProvider="target">
-                    <rect key="frame" x="144" y="182" width="199.5" height="199.5"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="6Re-cB-ABs"/>
-                        <constraint firstAttribute="width" secondItem="9P7-6s-7d1" secondAttribute="height" multiplier="1:1" id="IfW-gp-Xrh"/>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="WmB-b5-5Uq"/>
-                    </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeH-CL-H2I" customClass="Category" customModule="Arcohol" customModuleProvider="target">
                     <rect key="frame" x="743" y="182" width="200" height="200"/>
@@ -90,6 +86,15 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-ny-sVG" customClass="Category" customModule="Arcohol" customModuleProvider="target">
                     <rect key="frame" x="743" y="422" width="200" height="200"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9P7-6s-7d1" customClass="Category" customModule="Arcohol" customModuleProvider="target">
+                    <rect key="frame" x="144" y="182" width="200" height="200"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="6Re-cB-ABs"/>
+                        <constraint firstAttribute="width" secondItem="9P7-6s-7d1" secondAttribute="height" multiplier="1:1" id="IfW-gp-Xrh"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="WmB-b5-5Uq"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
