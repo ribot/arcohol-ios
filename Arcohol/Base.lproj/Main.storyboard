@@ -20,13 +20,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csW-ky-Q3q">
-                                <rect key="frame" x="0.0" y="180" width="600" height="420"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="420"/>
                                 <connections>
                                     <segue destination="aBP-vE-87g" kind="embed" identifier="BottomCollectionView" id="BPv-RR-fVE"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hrF-xj-KBR">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="180"/>
+                                <rect key="frame" x="0.0" y="420" width="600" height="180"/>
                                 <connections>
                                     <segue destination="kQT-qX-C9W" kind="embed" identifier="TopCollectionView" id="xt5-wr-KyK"/>
                                 </connections>
@@ -36,18 +36,39 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="csW-ky-Q3q" secondAttribute="trailing" constant="-20" id="0O1-Y5-5Zj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hrF-xj-KBR" secondAttribute="trailing" constant="-20" id="12q-YH-Whe"/>
+                            <constraint firstItem="hrF-xj-KBR" firstAttribute="top" secondItem="csW-ky-Q3q" secondAttribute="bottom" id="1pL-ws-tu9"/>
                             <constraint firstItem="hrF-xj-KBR" firstAttribute="leading" secondItem="MyZ-YB-o1u" secondAttribute="leadingMargin" constant="-20" id="3mK-D6-O7L"/>
                             <constraint firstItem="hrF-xj-KBR" firstAttribute="top" secondItem="MyZ-YB-o1u" secondAttribute="topMargin" id="Awn-QT-T1H"/>
                             <constraint firstItem="hrF-xj-KBR" firstAttribute="height" secondItem="MyZ-YB-o1u" secondAttribute="height" multiplier="0.3" id="DYV-WH-XFP"/>
+                            <constraint firstItem="hrF-xj-KBR" firstAttribute="height" secondItem="MyZ-YB-o1u" secondAttribute="height" multiplier="0.3" id="NPt-vF-8s4"/>
+                            <constraint firstItem="hrF-xj-KBR" firstAttribute="leading" secondItem="MyZ-YB-o1u" secondAttribute="leadingMargin" constant="-20" id="Nke-je-TWF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hrF-xj-KBR" secondAttribute="trailing" constant="-20" id="OIq-WE-p26"/>
                             <constraint firstItem="E8W-Xu-Hwi" firstAttribute="top" secondItem="csW-ky-Q3q" secondAttribute="bottom" id="OXh-yW-LSK"/>
+                            <constraint firstItem="hrF-xj-KBR" firstAttribute="top" secondItem="csW-ky-Q3q" secondAttribute="bottom" id="Pni-A4-QQS"/>
                             <constraint firstItem="csW-ky-Q3q" firstAttribute="top" secondItem="hrF-xj-KBR" secondAttribute="bottom" id="R52-z1-3oA"/>
                             <constraint firstItem="csW-ky-Q3q" firstAttribute="leading" secondItem="MyZ-YB-o1u" secondAttribute="leadingMargin" constant="-20" id="qIr-6w-mlY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="csW-ky-Q3q" secondAttribute="trailing" constant="-20" id="wm9-6u-aOM"/>
+                            <constraint firstItem="csW-ky-Q3q" firstAttribute="top" secondItem="MyZ-YB-o1u" secondAttribute="topMargin" id="xew-dt-Plg"/>
+                            <constraint firstItem="E8W-Xu-Hwi" firstAttribute="top" secondItem="hrF-xj-KBR" secondAttribute="bottom" id="yLb-r9-kdQ"/>
+                            <constraint firstItem="csW-ky-Q3q" firstAttribute="leading" secondItem="MyZ-YB-o1u" secondAttribute="leadingMargin" constant="-20" id="zJV-tT-kCy"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0O1-Y5-5Zj"/>
+                                <exclude reference="R52-z1-3oA"/>
+                                <exclude reference="qIr-6w-mlY"/>
+                                <exclude reference="12q-YH-Whe"/>
+                                <exclude reference="3mK-D6-O7L"/>
+                                <exclude reference="Awn-QT-T1H"/>
+                                <exclude reference="DYV-WH-XFP"/>
+                                <exclude reference="OXh-yW-LSK"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WAa-ng-jct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="393" y="1053"/>
+            <point key="canvasLocation" x="359" y="1055"/>
         </scene>
         <!--TopCollectionView-->
         <scene sceneID="mAS-gd-LcX">

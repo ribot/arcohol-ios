@@ -96,7 +96,13 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
     }
 
     func categoryNameTapped(name: String) {
-        self.overlayView.removeFromSuperview()
+        self.overlayView.alpha = 1
+        UIView.animateWithDuration(0.5, animations: {
+            self.overlayView.alpha = 0
+            }) { (completion) in
+                self.overlayView.removeFromSuperview()
+        }
+
         self.topContainerCollectionViewController?.findItemRowForName(name)
     }
 }
