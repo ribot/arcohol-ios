@@ -11,11 +11,9 @@ import Foundation
 struct Wine {
     let wineName: String
     let wineSegment: Int
-    let wineImageName: String
 
-    init(wineName: String, wineSegment: Int, wineImageName: String) {
+    init(wineName: String, wineSegment: Int) {
         self.wineName = wineName
         self.wineSegment = wineSegment
-        self.wineImageName = wineImageName
     }
 }

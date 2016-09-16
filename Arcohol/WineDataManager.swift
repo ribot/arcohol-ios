@@ -41,12 +41,11 @@ class WineDataManager {
                     throw WineCategoryError.MalformedDictionary
                 }
                 guard let wineName = wineObject["wineName"] as? String,
-                    let wineSegment = wineObject["wineSegment"] as? String,
-                    let wineImageName = wineObject["wineImageName"] as? String else {
+                    let wineSegment = wineObject["wineSegment"] as? String else {
                         throw WineCategoryError.WineNotFound
                 }
                 let numberFromString: Int = Int(wineSegment)!
-                let wine: Wine = Wine(wineName: wineName, wineSegment: numberFromString, wineImageName: wineImageName)
+                let wine: Wine = Wine(wineName: wineName, wineSegment: numberFromString)
                 mutableWineArray.append(wine)
             }
             guard let categoryName = categoryDictionary["categoryName"] as? String else {
