@@ -12,9 +12,11 @@ import UIKit
 class Category: UIView {
     @IBOutlet private var contentView: UIView?
     @IBOutlet var imageView: UIImageView?
+    @IBOutlet var labelName: UILabel?
     var name: String? {
         didSet {
-            imageView?.image = UIImage.init(named: "icon\(self.name!)Normal")
+            self.imageView?.image = UIImage.init(named: "icon\(self.name!)Normal")
+            self.labelName?.text = self.name
         }
     }
 
