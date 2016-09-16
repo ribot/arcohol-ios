@@ -29,6 +29,8 @@
 		9F86764D1D76F9FD0043E3DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86764C1D76F9FD0043E3DF /* Constants.swift */; };
 		9F86764F1D771AF00043E3DF /* WineCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86764E1D771AF00043E3DF /* WineCategory.swift */; };
 		9F8676511D771AF90043E3DF /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8676501D771AF90043E3DF /* Wine.swift */; };
+		9F923E151D8C12760081FDEB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F923E141D8C12760081FDEB /* Test.swift */; };
+		9F923E171D8C12810081FDEB /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F923E161D8C12810081FDEB /* Test.xib */; };
 		9FCC05F71D7F1995002F2DD4 /* WineDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC05F61D7F1995002F2DD4 /* WineDataManager.swift */; };
 		9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */; };
 		ADED5A4A7FAAEB58E3F4CE5A /* Pods_Arcohol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC470D94A770592370B6469A /* Pods_Arcohol.framework */; };
@@ -80,6 +82,8 @@
 		9F86764C1D76F9FD0043E3DF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9F86764E1D771AF00043E3DF /* WineCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineCategory.swift; sourceTree = "<group>"; };
 		9F8676501D771AF90043E3DF /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		9F923E141D8C12760081FDEB /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9F923E161D8C12810081FDEB /* Test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test.xib; sourceTree = "<group>"; };
 		9FCC05F61D7F1995002F2DD4 /* WineDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineDataManager.swift; sourceTree = "<group>"; };
 		9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC470D94A770592370B6469A /* Pods_Arcohol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcohol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +236,15 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
+		9F923E181D8C15930081FDEB /* Test Shelves */ = {
+			isa = PBXGroup;
+			children = (
+				9F923E141D8C12760081FDEB /* Test.swift */,
+				9F923E161D8C12810081FDEB /* Test.xib */,
+			);
+			name = "Test Shelves";
+			sourceTree = "<group>";
+		};
 		9FCC05F41D7F197B002F2DD4 /* Network manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +313,7 @@
 		9FD100D71D6DE501009F83F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F923E181D8C15930081FDEB /* Test Shelves */,
 				9F0D5A371D880A540051DD69 /* Wine Category View */,
 				9F1521A11D64B44C00B264B0 /* ViewController.swift */,
 				9F1521A31D64B44C00B264B0 /* Main.storyboard */,
@@ -439,6 +453,7 @@
 				9F3A73B01D75E54E005C4851 /* BottomCollectionView.storyboard in Resources */,
 				9F013D471D79BEF80059E4C6 /* Wines.plist in Resources */,
 				9F0D5A801D884A390051DD69 /* Category.xib in Resources */,
+				9F923E171D8C12810081FDEB /* Test.xib in Resources */,
 				9F1521AA1D64B44C00B264B0 /* LaunchScreen.storyboard in Resources */,
 				9F3A73AE1D75E540005C4851 /* TopCollectionView.storyboard in Resources */,
 				9F1521A71D64B44C00B264B0 /* Assets.xcassets in Resources */,
@@ -517,6 +532,7 @@
 			files = (
 				9F0D5A391D880A740051DD69 /* WineCategoriesOverlayView.swift in Sources */,
 				9F4A22631D6EFB6700E53DA5 /* NetworkManager.swift in Sources */,
+				9F923E151D8C12760081FDEB /* Test.swift in Sources */,
 				9FCC05F71D7F1995002F2DD4 /* WineDataManager.swift in Sources */,
 				9F4A22651D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift in Sources */,
 				9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */,
