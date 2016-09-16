@@ -29,7 +29,7 @@ class BottomCollectionViewController: BaseCollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = self.collectionView!.dequeueReusableCellWithReuseIdentifier(reuseBottomIdentifier, forIndexPath: indexPath) as! BottomCollectionViewCell
-        cell.label.text = array[indexPath.row].wineName
+        //cell.label.text = array[indexPath.row].wineName
         let image = UIImage(named: "bottleRed")
         cell.imageView.image = image
         return cell

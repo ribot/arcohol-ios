@@ -204,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3A73B31D75E61E005C4851 /* BottomCollectionViewController.swift */,
-				9F3A73AC1D75E540005C4851 /* TopCollectionView.storyboard */,
+				9F3A73AF1D75E54E005C4851 /* BottomCollectionView.storyboard */,
 				9F4C78D51D76D6400001856D /* Cell */,
 			);
 			name = "Bottom View";
@@ -214,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3A73B11D75E614005C4851 /* TopCollectionViewController.swift */,
-				9F3A73AF1D75E54E005C4851 /* BottomCollectionView.storyboard */,
+				9F3A73AC1D75E540005C4851 /* TopCollectionView.storyboard */,
 				9F4C78D41D76D62F0001856D /* Cell */,
 			);
 			name = "Top View";

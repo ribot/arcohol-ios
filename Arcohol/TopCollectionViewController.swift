@@ -54,6 +54,7 @@ class TopCollectionViewController: BaseCollectionViewController {
             self.collectionView?.scrollToItemAtIndexPath(NSIndexPath(forItem:index, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.Left, animated: true)
             if let cell = self.collectionView?.cellForItemAtIndexPath(indexPath) as? TopCollectionViewCell {
                 self.categoryCellSelected(true, cell: cell, index: indexPath.row)
+                self.delegate?.didSelectCategory(array[indexPath.row].winesArray)
             }
         }
     }

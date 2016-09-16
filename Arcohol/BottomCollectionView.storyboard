@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Bottom Collection View Controller-->
@@ -29,8 +30,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-0y-Z3j">
-                                            <rect key="frame" x="43" y="8" width="114" height="114"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleRed" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-0y-Z3j">
+                                            <rect key="frame" x="8" y="8" width="100" height="184"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="114:103" id="RrC-0w-BpR"/>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="1:1" id="pAO-77-UkY"/>
@@ -38,29 +39,33 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="RrC-0w-BpR"/>
+                                                    <exclude reference="pAO-77-UkY"/>
                                                 </mask>
                                             </variation>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKY-Ts-d6I">
-                                            <rect key="frame" x="79" y="136" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
+                                    <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="0Zs-4n-2Zg"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="r9F-0y-Z3j" secondAttribute="trailing" constant="35" id="B15-bP-g0k"/>
-                                    <constraint firstItem="RKY-Ts-d6I" firstAttribute="centerX" secondItem="IbE-oP-a8j" secondAttribute="centerX" id="Si1-gF-Pr7"/>
+                                    <constraint firstItem="r9F-0y-Z3j" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="Fzl-ng-CEL"/>
+                                    <constraint firstItem="r9F-0y-Z3j" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="V3l-UK-09Y"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="centerX" secondItem="IbE-oP-a8j" secondAttribute="centerX" id="Ywd-Bi-XzP"/>
-                                    <constraint firstItem="RKY-Ts-d6I" firstAttribute="top" secondItem="r9F-0y-Z3j" secondAttribute="bottom" constant="14" id="jYo-St-0Kl"/>
+                                    <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="cGq-KM-PoL"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="mE5-hF-9rz"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" constant="35" id="vML-wy-bW4"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="B15-bP-g0k"/>
+                                        <exclude reference="Ywd-Bi-XzP"/>
+                                        <exclude reference="mE5-hF-9rz"/>
+                                        <exclude reference="vML-wy-bW4"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <outlet property="imageView" destination="r9F-0y-Z3j" id="8Yv-Fp-fIJ"/>
-                                    <outlet property="label" destination="RKY-Ts-d6I" id="wbA-si-Gyc"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -75,4 +80,7 @@
             <point key="canvasLocation" x="1030" y="1494"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bottleRed" width="128" height="539"/>
+    </resources>
 </document>
