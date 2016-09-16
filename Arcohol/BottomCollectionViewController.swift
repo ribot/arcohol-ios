@@ -15,6 +15,9 @@ class BottomCollectionViewController: BaseCollectionViewController {
         didSet {
             dispatch_async(dispatch_get_main_queue()) { [unowned self] in
                 self.collectionView?.reloadData()
+                // Scroll to the beginning
+                let indexPath = NSIndexPath(forItem:0, inSection: 0)
+                self.collectionView?.scrollToItemAtIndexPath(indexPath, atScrollPosition: UICollectionViewScrollPosition.Left, animated: true)
             }
         }
     }

@@ -362,11 +362,11 @@
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Dandelion Shiraz</string>
+				<string>Pacheco Roble</string>
 				<key>countryName</key>
-				<string>Australia</string>
+				<string>Spain</string>
 				<key>grape</key>
-				<string>Shiraz</string>
+				<string>Blend</string>
 				<key>colour</key>
 				<string>Red</string>
 				<key>vintage</key>
@@ -374,7 +374,97 @@
 				<key>abv</key>
 				<string>14.5%</string>
 				<key>tastingNotes</key>
-				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
+				<string> Ripe bramble fruit, cherry, spice notes and  oak. </string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Dom Les Tours De Montmelas, Beaujolais Village</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Gamay</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2013</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Bright red fruit and herbal notes</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Li Veli Orion, Primtivo</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Primitivo</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Fresh red fruit, cinammon and nutmeg.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Dumanet Viognier</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Viognier</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Medium bodied. Crisp stone fruit - apricots / peach. Fresh acidity.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Chateau le Peze, Monbazillac</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Semillon, Sauv Blanc</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2011</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Candied peel, stone and honeyed fruit. Fresh acidity.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Domaine des Baumard, Coteaux du Layon</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Chenin Blanc</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>11.5%</string>
+				<key>tastingNotes</key>
+				<string> Honeyed with tropical fruit - mango, guava and pineapple.</string>
 				<key>wineSegment</key>
 				<string>1</string>
 			</dict>
@@ -389,11 +479,47 @@
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Dandelion Shiraz</string>
+				<string>Ciu Ciu Bacchus</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Ripe cherry fruit, and soft spice</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>The Exhibitionist</string>
 				<key>countryName</key>
 				<string>Australia</string>
 				<key>grape</key>
-				<string>Shiraz</string>
+				<string>Merlot</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Rich red berries and subtle earthiness</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>The Pugilist</string>
+				<key>countryName</key>
+				<string>Australia</string>
+				<key>grape</key>
+				<string>Cabernet Sauvignon</string>
 				<key>colour</key>
 				<string>Red</string>
 				<key>vintage</key>
@@ -401,7 +527,61 @@
 				<key>abv</key>
 				<string>14.5%</string>
 				<key>tastingNotes</key>
-				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
+				<string>Cassis, mulberry and bramble laden fruit</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Primo Bianco Mesa</string>
+				<key>countryName</key>
+				<string>Sardinia</string>
+				<key>grape</key>
+				<string>Vermentino</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Fresh, well balanced, exotic fruits.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>The Opportunist</string>
+				<key>countryName</key>
+				<string>Australia</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Vibrant, grassy flavours balanced with zingy citrus</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Liberty Chenin Blanc</string>
+				<key>countryName</key>
+				<string>South Africa</string>
+				<key>grape</key>
+				<string>Chenin Blanc</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Fresh &amp; dry with crisp orchard fruits.</string>
 				<key>wineSegment</key>
 				<string>1</string>
 			</dict>
@@ -416,19 +596,109 @@
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Dandelion Shiraz</string>
+				<string>El Descanso</string>
 				<key>countryName</key>
-				<string>Australia</string>
+				<string>Chile</string>
 				<key>grape</key>
-				<string>Shiraz</string>
+				<string>Sauvignon Blanc</string>
 				<key>colour</key>
-				<string>Red</string>
+				<string>White</string>
 				<key>vintage</key>
 				<string>2014</string>
 				<key>abv</key>
-				<string>14.5%</string>
+				<string>13%</string>
 				<key>tastingNotes</key>
-				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
+				<string>Aromatic with pineapple accompanied citrus fruit flavours.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Espiritu Torrontes</string>
+				<key>countryName</key>
+				<string>Argentina</string>
+				<key>grape</key>
+				<string>Torrontes</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2013</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Floral with spicy freshness and firm acidity</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Contero Moscato d&apos;Asti</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Muscat</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>5.5%</string>
+				<key>tastingNotes</key>
+				<string>A slight spritz, delicate sweetness. Fresh grape and sherbert.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Felicette Rouge</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>12.5%</string>
+				<key>tastingNotes</key>
+				<string>Generous, ripe, red berry fruit. Smooth finish.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Gassac Reserve Rose</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Rose</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Dry. Fresh red fruit. Hints of raspberry and vanilla.</string>
+				<key>wineSegment</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>wineName</key>
+				<string>Chateau Deville</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2012</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>A bouquet of ripe blackcurrant, plum with smokey woody flavours.</string>
 				<key>wineSegment</key>
 				<string>1</string>
 			</dict>
