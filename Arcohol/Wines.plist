@@ -11,8 +11,7 @@
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Kaiken Reserve
-Kaiken Reserve</string>
+				<string>Kaiken Reserve</string>
 				<key>countryName</key>
 				<string>Argentina</string>
 				<key>grape</key>
@@ -129,59 +128,111 @@ Kaiken Reserve</string>
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>El Descanso</string>
+				<key>countryName</key>
+				<string>Chile</string>
+				<key>grape</key>
+				<string>Sauvignon Blanc</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Aromatic with pineapple accompanied citrus fruit flavours.</string>
 				<key>wineSegment</key>
-				<string>2</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Domaine David, Les Barboires, Muscadet</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Melon de Bourgogne</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Fresh citrus fruit and with refreshing acidity. Think shellfish,</string>
 				<key>wineSegment</key>
-				<string>4</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Chateau de la Mirande Picpoul</string>
+				<key>countryName</key>
+				<string>France </string>
+				<key>grape</key>
+				<string>Picpoul </string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string> Citrus, green fruits, hints of white pepper, fresh herbs</string>
 				<key>wineSegment</key>
-				<string>6</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Dom Les Tours De Montmelas, Beaujolais Villages</string>
+				<key>countryName</key>
+				<string>France</string>
+				<key>grape</key>
+				<string>Gamay</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2013</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Bright red fruit and herbal notes</string>
 				<key>wineSegment</key>
-				<string>8</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Allegrini Valpolicella</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>12.5%</string>
+				<key>tastingNotes</key>
+				<string>Cherries with subtle pepper and herb nuances.</string>
 				<key>wineSegment</key>
-				<string>10</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Albourne Estate White Pinot Noir</string>
+				<key>countryName</key>
+				<string>England</string>
+				<key>grape</key>
+				<string>Pinot Noir</string>
+				<key>colour</key>
+				<string>Rose</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>14.5%</string>
+				<key>tastingNotes</key>
+				<string>Subtle strawberry and cherry fruits</string>
 				<key>wineSegment</key>
-				<string>12</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>14</string>
+				<string>1</string>
 			</dict>
 		</array>
 	</dict>
@@ -194,59 +245,111 @@ Kaiken Reserve</string>
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Bella Modella Pinot Grigio</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Pinot Grigio</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>12%</string>
+				<key>tastingNotes</key>
+				<string>Light and refreshing with zesty lemon flavours.</string>
 				<key>wineSegment</key>
-				<string>13</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Li Veli Fiano</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Fiano</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Sweet stone fruits, citrus white blossom and almond</string>
 				<key>wineSegment</key>
-				<string>15</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Palazzo Cataratto</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Cataratto</string>
+				<key>colour</key>
+				<string>White</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>13%</string>
+				<key>tastingNotes</key>
+				<string>Ripe lemon, peach, tropical fruit. Medium bodied</string>
 				<key>wineSegment</key>
-				<string>17</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Palazzo Nero d&apos;Avola</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Nero d&apos;Avola</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Ripe dark fruit, hints of spice and dark cherry</string>
 				<key>wineSegment</key>
-				<string>19</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>San Ferdinando, Gamba Podere, Chianti</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2013</string>
+				<key>abv</key>
+				<string>13.5%</string>
+				<key>tastingNotes</key>
+				<string>Forest fruit, cherry and some liquorice. Clean and juicy</string>
 				<key>wineSegment</key>
-				<string>21</string>
+				<string>1</string>
 			</dict>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Bibi Graetz, Casamatta</string>
+				<key>countryName</key>
+				<string>Italy</string>
+				<key>grape</key>
+				<string>Blend</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2015</string>
+				<key>abv</key>
+				<string>12.5%</string>
+				<key>tastingNotes</key>
+				<string>Dry cherry, currant and spice</string>
 				<key>wineSegment</key>
-				<string>23</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>25</string>
+				<string>1</string>
 			</dict>
 		</array>
 	</dict>
@@ -259,59 +362,21 @@ Kaiken Reserve</string>
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Dandelion Shiraz</string>
+				<key>countryName</key>
+				<string>Australia</string>
+				<key>grape</key>
+				<string>Shiraz</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>14.5%</string>
+				<key>tastingNotes</key>
+				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
 				<key>wineSegment</key>
-				<string>16</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>18</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>20</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>22</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>24</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>26</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>28</string>
+				<string>1</string>
 			</dict>
 		</array>
 	</dict>
@@ -324,57 +389,19 @@ Kaiken Reserve</string>
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Dandelion Shiraz</string>
+				<key>countryName</key>
+				<string>Australia</string>
+				<key>grape</key>
+				<string>Shiraz</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>14.5%</string>
+				<key>tastingNotes</key>
+				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
 				<key>wineSegment</key>
 				<string>1</string>
 			</dict>
@@ -389,57 +416,19 @@ Kaiken Reserve</string>
 		<array>
 			<dict>
 				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
-				<key>wineSegment</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>wineName</key>
-				<string>Campo Viejo</string>
-				<key>wineImageName</key>
-				<string>meat</string>
+				<string>Dandelion Shiraz</string>
+				<key>countryName</key>
+				<string>Australia</string>
+				<key>grape</key>
+				<string>Shiraz</string>
+				<key>colour</key>
+				<string>Red</string>
+				<key>vintage</key>
+				<string>2014</string>
+				<key>abv</key>
+				<string>14.5%</string>
+				<key>tastingNotes</key>
+				<string>Full bodied. Sweetish dark spicy fruit and oak.</string>
 				<key>wineSegment</key>
 				<string>1</string>
 			</dict>

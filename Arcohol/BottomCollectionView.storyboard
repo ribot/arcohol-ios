@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JiM-8v-fvD">
-                            <size key="itemSize" width="200" height="200"/>
+                            <size key="itemSize" width="473" height="341"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BottomCollectionViewCell" id="IbE-oP-a8j" customClass="BottomCollectionViewCell" customModule="Arcohol" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                <rect key="frame" x="0.0" y="129.5" width="473" height="341"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="473" height="341"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleRed" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-0y-Z3j">
-                                            <rect key="frame" x="8" y="8" width="100" height="184"/>
+                                            <rect key="frame" x="8" y="8" width="236.5" height="325"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="114:103" id="RrC-0w-BpR"/>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="1:1" id="pAO-77-UkY"/>
@@ -43,18 +43,42 @@
                                                 </mask>
                                             </variation>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Wine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCo-jX-jLA">
+                                            <rect key="frame" x="245" y="30" width="89" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-cF-KMl">
+                                            <rect key="frame" x="245" y="51" width="62" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="grape" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exp-HK-RAs">
+                                            <rect key="frame" x="245" y="72" width="45" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="0Zs-4n-2Zg"/>
+                                    <constraint firstItem="exp-HK-RAs" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="779-9G-PcX"/>
+                                    <constraint firstItem="HAU-cF-KMl" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="8Vt-OM-gKz"/>
+                                    <constraint firstItem="jCo-jX-jLA" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" constant="22" id="AFb-4b-lND"/>
+                                    <constraint firstItem="HAU-cF-KMl" firstAttribute="top" secondItem="jCo-jX-jLA" secondAttribute="bottom" id="Ace-he-Alf"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="r9F-0y-Z3j" secondAttribute="trailing" constant="35" id="B15-bP-g0k"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="Fzl-ng-CEL"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="V3l-UK-09Y"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="centerX" secondItem="IbE-oP-a8j" secondAttribute="centerX" id="Ywd-Bi-XzP"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="cGq-KM-PoL"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="mE5-hF-9rz"/>
+                                    <constraint firstItem="jCo-jX-jLA" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="rsx-tr-1Cn"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" constant="35" id="vML-wy-bW4"/>
+                                    <constraint firstItem="exp-HK-RAs" firstAttribute="top" secondItem="HAU-cF-KMl" secondAttribute="bottom" id="wZs-wz-HKh"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -66,6 +90,9 @@
                                 </variation>
                                 <connections>
                                     <outlet property="imageView" destination="r9F-0y-Z3j" id="8Yv-Fp-fIJ"/>
+                                    <outlet property="labelColour" destination="exp-HK-RAs" id="kxQ-PE-H6N"/>
+                                    <outlet property="labelCountry" destination="HAU-cF-KMl" id="Aef-G4-Hc9"/>
+                                    <outlet property="labelName" destination="jCo-jX-jLA" id="0yJ-bs-s4H"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
