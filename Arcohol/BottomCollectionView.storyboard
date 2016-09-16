@@ -61,6 +61,15 @@
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220.5" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-i2-dhs">
+                                            <rect key="frame" x="244.5" y="93" width="220.5" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleLabel" translatesAutoresizingMaskIntoConstraints="NO" id="A2Z-WS-aL0">
+                                            <rect key="frame" x="8" y="8" width="236.5" height="325"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
@@ -72,8 +81,15 @@
                                     <constraint firstItem="HAU-cF-KMl" firstAttribute="top" secondItem="jCo-jX-jLA" secondAttribute="bottom" id="Ace-he-Alf"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="r9F-0y-Z3j" secondAttribute="trailing" constant="35" id="B15-bP-g0k"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="Fzl-ng-CEL"/>
+                                    <constraint firstItem="A2Z-WS-aL0" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="Mn3-ce-izX"/>
+                                    <constraint firstItem="A2Z-WS-aL0" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="Tbw-Zz-HdQ"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="V3l-UK-09Y"/>
+                                    <constraint firstItem="A2Z-WS-aL0" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="WyZ-yk-o4a"/>
+                                    <constraint firstItem="hbJ-i2-dhs" firstAttribute="trailing" secondItem="IbE-oP-a8j" secondAttribute="trailingMargin" id="Ycs-ae-Jzl"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="centerX" secondItem="IbE-oP-a8j" secondAttribute="centerX" id="Ywd-Bi-XzP"/>
+                                    <constraint firstItem="hbJ-i2-dhs" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="Z7t-VC-1yC"/>
+                                    <constraint firstItem="hbJ-i2-dhs" firstAttribute="top" secondItem="exp-HK-RAs" secondAttribute="bottom" id="bJt-x0-h30"/>
+                                    <constraint firstItem="A2Z-WS-aL0" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="c5Q-Om-cK5"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="cGq-KM-PoL"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="mE5-hF-9rz"/>
                                     <constraint firstItem="jCo-jX-jLA" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="rsx-tr-1Cn"/>
@@ -93,6 +109,7 @@
                                     <outlet property="labelColour" destination="exp-HK-RAs" id="kxQ-PE-H6N"/>
                                     <outlet property="labelCountry" destination="HAU-cF-KMl" id="Aef-G4-Hc9"/>
                                     <outlet property="labelName" destination="jCo-jX-jLA" id="0yJ-bs-s4H"/>
+                                    <outlet property="labelTastingNotes" destination="hbJ-i2-dhs" id="6vp-nZ-fwY"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -108,6 +125,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bottleLabel" width="128" height="539"/>
         <image name="bottleRed" width="128" height="539"/>
     </resources>
 </document>
