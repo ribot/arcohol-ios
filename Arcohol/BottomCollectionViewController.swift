@@ -33,11 +33,11 @@ class BottomCollectionViewController: BaseCollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = self.collectionView!.dequeueReusableCell(withReuseIdentifier: reuseBottomIdentifier, for: indexPath) as! BottomCollectionViewCell
         cell.labelName.text = array[(indexPath as NSIndexPath).row].wineName
-        cell.labelColour.text = array[(indexPath as NSIndexPath).row].wineColour
-        cell.labelCountry.text = array[(indexPath as NSIndexPath).row].wineCountryName
-        cell.labelTastingNotes.text = array[(indexPath as NSIndexPath).row].wineNotes
         cell.labelGrape.text = array[(indexPath as NSIndexPath).row].wineGrape
         cell.labelYear.text = array[(indexPath as NSIndexPath).row].wineVintage
+        cell.labelCountryContent.text = array[(indexPath as NSIndexPath).row].wineCountryName
+        cell.labelNameContent.text = array[(indexPath as NSIndexPath).row].wineName
+        cell.labelVABContent.text = "\(array[(indexPath as NSIndexPath).row].wineCountryName) * \(array[(indexPath as NSIndexPath).row].wineABV)VOL"
         let image = UIImage(named: array[(indexPath as NSIndexPath).row].wineImageName())
         cell.imageView.image = image
         return cell
