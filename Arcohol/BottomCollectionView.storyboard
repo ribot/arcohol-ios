@@ -79,6 +79,11 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="s6d-OE-Uj7">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </view>
                                 <constraints>
@@ -95,6 +100,7 @@
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="Tbw-Zz-HdQ"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="V3l-UK-09Y"/>
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="WyZ-yk-o4a"/>
+                                    <constraint firstItem="s6d-OE-Uj7" firstAttribute="leading" secondItem="A2Z-WS-aL0" secondAttribute="trailing" id="YDa-q9-agZ"/>
                                     <constraint firstItem="dTC-Ij-Nto" firstAttribute="centerX" secondItem="A2Z-WS-aL0" secondAttribute="centerX" id="YWX-UL-ppF"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="centerX" secondItem="IbE-oP-a8j" secondAttribute="centerX" id="Ywd-Bi-XzP"/>
                                     <constraint firstItem="gqu-id-EYn" firstAttribute="leading" secondItem="A2Z-WS-aL0" secondAttribute="trailing" id="c0h-ur-Wx8"/>
@@ -108,6 +114,7 @@
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" constant="35" id="vML-wy-bW4"/>
                                     <constraint firstItem="dTC-Ij-Nto" firstAttribute="centerY" secondItem="A2Z-WS-aL0" secondAttribute="centerY" constant="140" id="xAU-le-fWu"/>
                                     <constraint firstItem="kRp-Zi-H7Y" firstAttribute="centerY" secondItem="IbE-oP-a8j" secondAttribute="centerY" constant="-150" id="xXB-SJ-OiW"/>
+                                    <constraint firstItem="s6d-OE-Uj7" firstAttribute="top" secondItem="1oI-eS-NXK" secondAttribute="bottom" constant="10" id="zg6-0d-8PA"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -125,6 +132,7 @@
                                     <outlet property="labelNameContent" destination="SxB-Dd-qFu" id="7zd-st-k5M"/>
                                     <outlet property="labelVABContent" destination="gqu-id-EYn" id="KGT-b5-3tc"/>
                                     <outlet property="labelYear" destination="dTC-Ij-Nto" id="MDb-aP-1C9"/>
+                                    <outlet property="labeltastingNotesContent" destination="s6d-OE-Uj7" id="hup-qy-6dR"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>

@@ -18,4 +18,5 @@ class BottomCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var labelCountryContent: UILabel!
     @IBOutlet weak var labelNameContent: UILabel!
     @IBOutlet weak var labelVABContent: UILabel!
+    @IBOutlet weak var labeltastingNotesContent: UILabel!
 }
