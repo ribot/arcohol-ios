@@ -21,57 +21,58 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
     override func viewDidLoad() {
         super.viewDidLoad()
         overlayView.wineCategoryOverlayViewProtocolDelegate = self
-        self.view.addSubview(overlayView)
-        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Left, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Right, multiplier: 1, constant: 0)])
+//        self.view.addSubview(overlayView)
+//        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Left, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Right, multiplier: 1, constant: 0)])
 
-//        let testView: Test = Test()
-//
-//        self.view.addSubview(testView)
-//        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Left, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Right, multiplier: 1, constant: 0)])
-//
+        let testView: Test = Test()
+
+        self.view.addSubview(testView)
+        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
 
 
-        dispatch_async(dispatch_get_global_queue(Int(QOS_CLASS_UTILITY.rawValue), 0)) {
+
+        DispatchQueue.global().async {
             do {
                 self.topContainerCollectionViewController?.array = try WineDataManager.sharedInstance.importCollectionOfWineCategories()
-            } catch WineDataManager.WineCategoryError.FileNotFound {
+            } catch WineDataManager.WineCategoryError.fileNotFound {
                 print("FileNotFound")
-            } catch WineDataManager.WineCategoryError.MalformedDictionary {
+            } catch WineDataManager.WineCategoryError.malformedDictionary {
                 print("MalformedDictionary")
-            } catch WineDataManager.WineCategoryError.WineArrayNotFound {
+            } catch WineDataManager.WineCategoryError.wineArrayNotFound {
                 print("WineArrayNotFound")
-            } catch WineDataManager.WineCategoryError.WineNotFound {
+            } catch WineDataManager.WineCategoryError.wineNotFound {
                 print("WineNotFound")
-            } catch WineDataManager.WineCategoryError.CategoryNotFound {
+            } catch WineDataManager.WineCategoryError.categoryNotFound {
                 print("CategoryNotFound")
             } catch {
                 print("some error")
             }
         }
+        
     }
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == Constants.SegueIdentifiers.topCollectionView) {
-            guard segue.destinationViewController.isKindOfClass(TopCollectionViewController) else { return }
-            topContainerCollectionViewController = (segue.destinationViewController as! TopCollectionViewController)
+            guard segue.destination.isKind(of: TopCollectionViewController.self) else { return }
+            topContainerCollectionViewController = (segue.destination as! TopCollectionViewController)
             topContainerCollectionViewController?.delegate = self
         }
         if (segue.identifier == Constants.SegueIdentifiers.bottomCollectionView) {
-            guard segue.destinationViewController.isKindOfClass(BottomCollectionViewController) else { return }
-            bottomContainerCollectionViewController = (segue.destinationViewController as! BottomCollectionViewController)
+            guard segue.destination.isKind(of: BottomCollectionViewController.self) else { return }
+            bottomContainerCollectionViewController = (segue.destination as! BottomCollectionViewController)
             bottomContainerCollectionViewController?.delegate = self
         }
     }
 
     // MARK: - Delegation
 
-    func didSelectCategory(wineArray: [Wine]) {
+    func didSelectCategory(_ wineArray: [Wine]) {
         self.bottomContainerCollectionViewController?.array = wineArray
         // TODO: Create a clousure that returns an array with all the winesegments
 
@@ -87,7 +88,7 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
         }
     }
 
-    func didSelectWine(row: Int) {
+    func didSelectWine(_ row: Int) {
         NetworkManager.sharedInstance.emitToSocket([(self.bottomContainerCollectionViewController?.array[row].wineSegment)!]) { (success) in
             if !success {
                 print("Error")
@@ -95,13 +96,13 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
         }
     }
 
-    func categoryNameTapped(name: String) {
+    func categoryNameTapped(_ name: String) {
         self.overlayView.alpha = 1
-        UIView.animateWithDuration(0.5, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             self.overlayView.alpha = 0
-            }) { (completion) in
+            }, completion: { (completion) in
                 self.overlayView.removeFromSuperview()
-        }
+        }) 
 
         self.topContainerCollectionViewController?.findItemRowForName(name)
     }

@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 class Test: UIView {
-    @IBOutlet private var contentView: UIView?
-    @IBOutlet private var textField: UITextField?
+    @IBOutlet fileprivate var contentView: UIView?
+    @IBOutlet fileprivate var textField: UITextField?
 
     // for using CustomView in code
     override init(frame: CGRect) {
@@ -25,16 +25,16 @@ class Test: UIView {
         self.commonInit()
     }
 
-    private func commonInit() {
+    fileprivate func commonInit() {
         self.translatesAutoresizingMaskIntoConstraints = false
-        NSBundle.mainBundle().loadNibNamed("Test", owner: self, options: nil)
+        Bundle.main.loadNibNamed("Test", owner: self, options: nil)
         guard let content = contentView else { return }
         content.frame = self.bounds
-        content.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
+        content.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         self.addSubview(content)
     }
 
-    @IBAction func test(sender: AnyObject) {
+    @IBAction func test(_ sender: AnyObject) {
         NetworkManager.sharedInstance.emitToSocket([Int((self.textField?.text)!)!]) { (success) in
             if !success {
                 print("Error")

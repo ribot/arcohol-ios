@@ -25,7 +25,7 @@ struct WineCategory {
         return "icon\(self.wineCategoryName)Highlight"
     }
 
-    func equalToName(name: String) -> Bool {
+    func equalToName(_ name: String) -> Bool {
         return true
     }
 }

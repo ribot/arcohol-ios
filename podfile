@@ -4,5 +4,5 @@ source 'https://github.com/CocoaPods/Specs'
 use_frameworks!
 
 target 'Arcohol' do
-    pod 'Socket.IO-Client-Swift', '~> 6.1.6' # Or latest version
+    pod 'Socket.IO-Client-Swift', '~> 8.0.1'
 end

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class Category: UIView {
-    @IBOutlet private var contentView: UIView?
+    @IBOutlet fileprivate var contentView: UIView?
     @IBOutlet var imageView: UIImageView?
     @IBOutlet var labelName: UILabel?
     var name: String? {
@@ -32,12 +32,12 @@ class Category: UIView {
         self.commonInit()
     }
 
-    private func commonInit() {
+    fileprivate func commonInit() {
         self.translatesAutoresizingMaskIntoConstraints = false
-        NSBundle.mainBundle().loadNibNamed("Category", owner: self, options: nil)
+        Bundle.main.loadNibNamed("Category", owner: self, options: nil)
         guard let content = contentView else { return }
         content.frame = self.bounds
-        content.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
+        content.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         self.addSubview(content)
     }
 }
