@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8XH-YJ-wR3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8XH-YJ-wR3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Bottom Collection View Controller-->
@@ -13,9 +14,9 @@
             <objects>
                 <collectionViewController id="8XH-YJ-wR3" customClass="BottomCollectionViewController" customModule="Arcohol" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="PNr-dy-6wa">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JiM-8v-fvD">
                             <size key="itemSize" width="473" height="341"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -24,14 +25,13 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BottomCollectionViewCell" id="IbE-oP-a8j" customClass="BottomCollectionViewCell" customModule="Arcohol" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="129.5" width="473" height="341"/>
+                                <rect key="frame" x="0.0" y="0.0" width="473" height="341"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="473" height="341"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleRed" translatesAutoresizingMaskIntoConstraints="NO" id="r9F-0y-Z3j">
-                                            <rect key="frame" x="8" y="8" width="236.5" height="325"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="114:103" id="RrC-0w-BpR"/>
                                                 <constraint firstAttribute="width" secondItem="r9F-0y-Z3j" secondAttribute="height" multiplier="1:1" id="pAO-77-UkY"/>
@@ -44,34 +44,37 @@
                                             </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Wine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCo-jX-jLA">
-                                            <rect key="frame" x="245" y="30" width="89" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-cF-KMl">
-                                            <rect key="frame" x="245" y="51" width="62" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="grape" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exp-HK-RAs">
-                                            <rect key="frame" x="245" y="72" width="45" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="220.5" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-i2-dhs">
-                                            <rect key="frame" x="244.5" y="93" width="220.5" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleLabel" translatesAutoresizingMaskIntoConstraints="NO" id="A2Z-WS-aL0">
-                                            <rect key="frame" x="8" y="8" width="236.5" height="325"/>
-                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottleLabel" translatesAutoresizingMaskIntoConstraints="NO" id="A2Z-WS-aL0"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="pER-5m-3hr">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="JOi-GD-1MY">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="0Zs-4n-2Zg"/>
@@ -81,7 +84,9 @@
                                     <constraint firstItem="HAU-cF-KMl" firstAttribute="top" secondItem="jCo-jX-jLA" secondAttribute="bottom" id="Ace-he-Alf"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="r9F-0y-Z3j" secondAttribute="trailing" constant="35" id="B15-bP-g0k"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="Fzl-ng-CEL"/>
+                                    <constraint firstItem="JOi-GD-1MY" firstAttribute="centerY" secondItem="IbE-oP-a8j" secondAttribute="centerY" constant="50" id="G9e-Vj-7Gz"/>
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="Mn3-ce-izX"/>
+                                    <constraint firstItem="pER-5m-3hr" firstAttribute="centerX" secondItem="A2Z-WS-aL0" secondAttribute="centerX" id="Rhu-9C-Olv"/>
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="Tbw-Zz-HdQ"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="width" secondItem="IbE-oP-a8j" secondAttribute="width" multiplier="0.5" id="V3l-UK-09Y"/>
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" id="WyZ-yk-o4a"/>
@@ -91,7 +96,9 @@
                                     <constraint firstItem="hbJ-i2-dhs" firstAttribute="top" secondItem="exp-HK-RAs" secondAttribute="bottom" id="bJt-x0-h30"/>
                                     <constraint firstItem="A2Z-WS-aL0" firstAttribute="bottom" secondItem="IbE-oP-a8j" secondAttribute="bottomMargin" id="c5Q-Om-cK5"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="cGq-KM-PoL"/>
+                                    <constraint firstItem="JOi-GD-1MY" firstAttribute="centerX" secondItem="A2Z-WS-aL0" secondAttribute="centerX" id="lx3-TD-cO7"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="top" secondItem="IbE-oP-a8j" secondAttribute="topMargin" id="mE5-hF-9rz"/>
+                                    <constraint firstItem="pER-5m-3hr" firstAttribute="centerY" secondItem="A2Z-WS-aL0" secondAttribute="centerY" constant="100" id="mz1-MN-HNg"/>
                                     <constraint firstItem="jCo-jX-jLA" firstAttribute="leading" secondItem="r9F-0y-Z3j" secondAttribute="trailing" id="rsx-tr-1Cn"/>
                                     <constraint firstItem="r9F-0y-Z3j" firstAttribute="leading" secondItem="IbE-oP-a8j" secondAttribute="leadingMargin" constant="35" id="vML-wy-bW4"/>
                                     <constraint firstItem="exp-HK-RAs" firstAttribute="top" secondItem="HAU-cF-KMl" secondAttribute="bottom" id="wZs-wz-HKh"/>
@@ -108,7 +115,8 @@
                                     <outlet property="imageView" destination="r9F-0y-Z3j" id="8Yv-Fp-fIJ"/>
                                     <outlet property="labelColour" destination="exp-HK-RAs" id="kxQ-PE-H6N"/>
                                     <outlet property="labelCountry" destination="HAU-cF-KMl" id="Aef-G4-Hc9"/>
-                                    <outlet property="labelName" destination="jCo-jX-jLA" id="0yJ-bs-s4H"/>
+                                    <outlet property="labelGrape" destination="JOi-GD-1MY" id="bee-rL-tld"/>
+                                    <outlet property="labelName" destination="pER-5m-3hr" id="UgU-Cy-2Y4"/>
                                     <outlet property="labelTastingNotes" destination="hbJ-i2-dhs" id="6vp-nZ-fwY"/>
                                 </connections>
                             </collectionViewCell>

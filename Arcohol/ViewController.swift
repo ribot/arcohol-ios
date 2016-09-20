@@ -21,19 +21,19 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
     override func viewDidLoad() {
         super.viewDidLoad()
         overlayView.wineCategoryOverlayViewProtocolDelegate = self
-//        self.view.addSubview(overlayView)
-//        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Left, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Left, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.Right, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.Right, multiplier: 1, constant: 0)])
+        self.view.addSubview(overlayView)
+        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
+            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
 
-        let testView: Test = Test()
-
-        self.view.addSubview(testView)
-        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
+//        let testView: Test = Test()
+//
+//        self.view.addSubview(testView)
+//        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
+//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
 
 
 
