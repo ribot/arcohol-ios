@@ -37,6 +37,7 @@ class BottomCollectionViewController: BaseCollectionViewController {
         cell.labelCountry.text = array[(indexPath as NSIndexPath).row].wineCountryName
         cell.labelTastingNotes.text = array[(indexPath as NSIndexPath).row].wineNotes
         cell.labelGrape.text = array[(indexPath as NSIndexPath).row].wineGrape
+        cell.labelYear.text = array[(indexPath as NSIndexPath).row].wineVintage
         let image = UIImage(named: array[(indexPath as NSIndexPath).row].wineImageName())
         cell.imageView.image = image
         return cell
