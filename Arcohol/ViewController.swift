@@ -36,7 +36,6 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
 //            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
 
 
-
         DispatchQueue.global().async {
             do {
                 self.topContainerCollectionViewController?.array = try WineDataManager.sharedInstance.importCollectionOfWineCategories()
