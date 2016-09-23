@@ -41,10 +41,21 @@ class BottomCollectionViewController: BaseCollectionViewController {
         cell.labelVABContent.text = "\(array[(indexPath as NSIndexPath).row].wineCountryName) * \(array[(indexPath as NSIndexPath).row].wineABV)VOL"
         let image = UIImage(named: array[(indexPath as NSIndexPath).row].wineImageName())
         cell.imageView.image = image
+        cell.imageView.alpha = cell.isSelected ? 1 : 0.5
         return cell
     }
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.delegate?.didSelectWine((indexPath as NSIndexPath).row)
+        if let cell = collectionView.cellForItem(at: indexPath) as? BottomCollectionViewCell {
+            cell.imageView.alpha = cell.isSelected ? 1 : 0.5
+        }
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        self.delegate?.didSelectWine((indexPath as NSIndexPath).row)
+        if let cell = collectionView.cellForItem(at: indexPath) as? BottomCollectionViewCell {
+            cell.imageView.alpha = cell.isSelected ? 1 : 0.5
+        }
     }
 }

@@ -21,21 +21,8 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
     override func viewDidLoad() {
         super.viewDidLoad()
         overlayView.wineCategoryOverlayViewProtocolDelegate = self
-        self.view.addSubview(overlayView)
-        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
-            NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
-
-//        let testView: Test = Test()
-//
-//        self.view.addSubview(testView)
-//        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
-//            NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
-
-
+        self.addCategoryInitialView()
+        
         DispatchQueue.global().async {
             do {
                 self.topContainerCollectionViewController?.array = try WineDataManager.sharedInstance.importCollectionOfWineCategories()
@@ -53,9 +40,40 @@ class ViewController: UIViewController, ContainterViewControllerProtocol, WineCa
                 print("some error")
             }
         }
-        
+        self.view.addGestureRecognizer(UILongPressGestureRecognizer.init(target: self, action: #selector(ViewController.viewTapped)))
     }
 
+    func addCategoryInitialView() {
+        self.overlayView.alpha = 1
+        self.view.addSubview(overlayView)
+        self.view.addConstraints([NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: overlayView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
+    }
+    
+    func addTestView()  {
+        let testView: Test = Test()
+        self.view.addSubview(testView)
+        self.view.addConstraints([NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.top, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.top, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.bottom, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.bottom, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: 0),
+                                  NSLayoutConstraint.init(item: testView, attribute: NSLayoutAttribute.right, relatedBy: NSLayoutRelation.equal, toItem: self.view, attribute: NSLayoutAttribute.right, multiplier: 1, constant: 0)])
+    }
+    
+    func viewTapped(gesture : UILongPressGestureRecognizer!) {
+        if gesture.state != .ended {
+            return
+        }
+        NetworkManager.sharedInstance.emitToSocket([
+        ]) { (success) in
+            if !success {
+                print("Error")
+            }
+        }
+        self.addCategoryInitialView()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == Constants.SegueIdentifiers.topCollectionView) {
             guard segue.destination.isKind(of: TopCollectionViewController.self) else { return }
