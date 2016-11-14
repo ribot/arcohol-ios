@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F013D471D79BEF80059E4C6 /* Wines.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F013D461D79BEF80059E4C6 /* Wines.plist */; };
+		9F0D5A391D880A740051DD69 /* WineCategoriesOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D5A381D880A740051DD69 /* WineCategoriesOverlayView.swift */; };
+		9F0D5A3B1D880AA20051DD69 /* WineCategoriesOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D5A3A1D880AA20051DD69 /* WineCategoriesOverlayView.xib */; };
+		9F0D5A801D884A390051DD69 /* Category.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D5A7F1D884A390051DD69 /* Category.xib */; };
+		9F0D5A821D884A420051DD69 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0D5A811D884A420051DD69 /* Category.swift */; };
 		9F1521A01D64B44C00B264B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F15219F1D64B44C00B264B0 /* AppDelegate.swift */; };
 		9F1521A21D64B44C00B264B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1521A11D64B44C00B264B0 /* ViewController.swift */; };
 		9F1521A51D64B44C00B264B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1521A31D64B44C00B264B0 /* Main.storyboard */; };
@@ -21,6 +26,12 @@
 		9F4A22631D6EFB6700E53DA5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A22621D6EFB6700E53DA5 /* NetworkManager.swift */; };
 		9F4A22651D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A22641D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift */; };
 		9F4C78D91D76E59F0001856D /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C78D81D76E59F0001856D /* BaseCollectionViewController.swift */; };
+		9F86764D1D76F9FD0043E3DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86764C1D76F9FD0043E3DF /* Constants.swift */; };
+		9F86764F1D771AF00043E3DF /* WineCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86764E1D771AF00043E3DF /* WineCategory.swift */; };
+		9F8676511D771AF90043E3DF /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8676501D771AF90043E3DF /* Wine.swift */; };
+		9F923E151D8C12760081FDEB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F923E141D8C12760081FDEB /* Test.swift */; };
+		9F923E171D8C12810081FDEB /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F923E161D8C12810081FDEB /* Test.xib */; };
+		9FCC05F71D7F1995002F2DD4 /* WineDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC05F61D7F1995002F2DD4 /* WineDataManager.swift */; };
 		9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */; };
 		ADED5A4A7FAAEB58E3F4CE5A /* Pods_Arcohol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC470D94A770592370B6469A /* Pods_Arcohol.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F013D461D79BEF80059E4C6 /* Wines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Wines.plist; sourceTree = "<group>"; };
+		9F0D5A381D880A740051DD69 /* WineCategoriesOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineCategoriesOverlayView.swift; sourceTree = "<group>"; };
+		9F0D5A3A1D880AA20051DD69 /* WineCategoriesOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WineCategoriesOverlayView.xib; sourceTree = "<group>"; };
+		9F0D5A7F1D884A390051DD69 /* Category.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Category.xib; sourceTree = "<group>"; };
+		9F0D5A811D884A420051DD69 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		9F15219C1D64B44C00B264B0 /* Arcohol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcohol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F15219F1D64B44C00B264B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F1521A11D64B44C00B264B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +79,12 @@
 		9F4A22621D6EFB6700E53DA5 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9F4A22641D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F4C78D81D76E59F0001856D /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		9F86764C1D76F9FD0043E3DF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F86764E1D771AF00043E3DF /* WineCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineCategory.swift; sourceTree = "<group>"; };
+		9F8676501D771AF90043E3DF /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		9F923E141D8C12760081FDEB /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9F923E161D8C12810081FDEB /* Test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test.xib; sourceTree = "<group>"; };
+		9FCC05F61D7F1995002F2DD4 /* WineDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineDataManager.swift; sourceTree = "<group>"; };
 		9FD100DB1D6DEE48009F83F5 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC470D94A770592370B6469A /* Pods_Arcohol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arcohol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C016B2B82328F6D95A36AC /* Pods-Arcohol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arcohol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arcohol/Pods-Arcohol.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +123,25 @@
 				AC470D94A770592370B6469A /* Pods_Arcohol.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F0D5A371D880A540051DD69 /* Wine Category View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D5A381D880A740051DD69 /* WineCategoriesOverlayView.swift */,
+				9F0D5A3A1D880AA20051DD69 /* WineCategoriesOverlayView.xib */,
+				9F0D5A831D885BB30051DD69 /* Category View */,
+			);
+			name = "Wine Category View";
+			sourceTree = "<group>";
+		};
+		9F0D5A831D885BB30051DD69 /* Category View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D5A811D884A420051DD69 /* Category.swift */,
+				9F0D5A7F1D884A390051DD69 /* Category.xib */,
+			);
+			name = "Category View";
 			sourceTree = "<group>";
 		};
 		9F1521931D64B44C00B264B0 = {
@@ -159,24 +200,24 @@
 			path = ArcoholUITests;
 			sourceTree = "<group>";
 		};
-		9F4C78D21D76D60E0001856D /* Top View */ = {
+		9F4C78D21D76D60E0001856D /* Bottom View */ = {
 			isa = PBXGroup;
 			children = (
 				9F3A73B31D75E61E005C4851 /* BottomCollectionViewController.swift */,
-				9F3A73AC1D75E540005C4851 /* TopCollectionView.storyboard */,
+				9F3A73AF1D75E54E005C4851 /* BottomCollectionView.storyboard */,
 				9F4C78D51D76D6400001856D /* Cell */,
 			);
-			name = "Top View";
+			name = "Bottom View";
 			sourceTree = "<group>";
 		};
-		9F4C78D31D76D6140001856D /* Bottom View */ = {
+		9F4C78D31D76D6140001856D /* Top View */ = {
 			isa = PBXGroup;
 			children = (
 				9F3A73B11D75E614005C4851 /* TopCollectionViewController.swift */,
-				9F3A73AF1D75E54E005C4851 /* BottomCollectionView.storyboard */,
+				9F3A73AC1D75E540005C4851 /* TopCollectionView.storyboard */,
 				9F4C78D41D76D62F0001856D /* Cell */,
 			);
-			name = "Bottom View";
+			name = "Top View";
 			sourceTree = "<group>";
 		};
 		9F4C78D41D76D62F0001856D /* Cell */ = {
@@ -193,6 +234,31 @@
 				9F4A22641D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift */,
 			);
 			name = Cell;
+			sourceTree = "<group>";
+		};
+		9F923E181D8C15930081FDEB /* Test Shelves */ = {
+			isa = PBXGroup;
+			children = (
+				9F923E141D8C12760081FDEB /* Test.swift */,
+				9F923E161D8C12810081FDEB /* Test.xib */,
+			);
+			name = "Test Shelves";
+			sourceTree = "<group>";
+		};
+		9FCC05F41D7F197B002F2DD4 /* Network manager */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A22621D6EFB6700E53DA5 /* NetworkManager.swift */,
+			);
+			name = "Network manager";
+			sourceTree = "<group>";
+		};
+		9FCC05F51D7F1983002F2DD4 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC05F61D7F1995002F2DD4 /* WineDataManager.swift */,
+			);
+			name = "Data Manager";
 			sourceTree = "<group>";
 		};
 		9FD100D11D6DE4DC009F83F5 /* Assets */ = {
@@ -222,7 +288,8 @@
 		9FD100D41D6DE4EF009F83F5 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				9F4A22621D6EFB6700E53DA5 /* NetworkManager.swift */,
+				9FCC05F51D7F1983002F2DD4 /* Data Manager */,
+				9FCC05F41D7F197B002F2DD4 /* Network manager */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -238,6 +305,7 @@
 		9FD100D61D6DE4FC009F83F5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9F86764C1D76F9FD0043E3DF /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -245,10 +313,12 @@
 		9FD100D71D6DE501009F83F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F923E181D8C15930081FDEB /* Test Shelves */,
+				9F0D5A371D880A540051DD69 /* Wine Category View */,
 				9F1521A11D64B44C00B264B0 /* ViewController.swift */,
 				9F1521A31D64B44C00B264B0 /* Main.storyboard */,
-				9F4C78D31D76D6140001856D /* Bottom View */,
-				9F4C78D21D76D60E0001856D /* Top View */,
+				9F4C78D31D76D6140001856D /* Top View */,
+				9F4C78D21D76D60E0001856D /* Bottom View */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -256,6 +326,9 @@
 		9FD100D81D6DE527009F83F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F013D461D79BEF80059E4C6 /* Wines.plist */,
+				9F8676501D771AF90043E3DF /* Wine.swift */,
+				9F86764E1D771AF00043E3DF /* WineCategory.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -335,18 +408,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Manuel Marcos Regalado";
 				TargetAttributes = {
 					9F15219B1D64B44C00B264B0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J6ZZYB6RDT;
+						LastSwiftMigration = 0800;
 					};
 					9F1521AF1D64B44C00B264B0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9F15219B1D64B44C00B264B0;
 					};
 					9F1521BA1D64B44C00B264B0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9F15219B1D64B44C00B264B0;
 					};
 				};
@@ -376,7 +453,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0D5A3B1D880AA20051DD69 /* WineCategoriesOverlayView.xib in Resources */,
 				9F3A73B01D75E54E005C4851 /* BottomCollectionView.storyboard in Resources */,
+				9F013D471D79BEF80059E4C6 /* Wines.plist in Resources */,
+				9F0D5A801D884A390051DD69 /* Category.xib in Resources */,
+				9F923E171D8C12810081FDEB /* Test.xib in Resources */,
 				9F1521AA1D64B44C00B264B0 /* LaunchScreen.storyboard in Resources */,
 				9F3A73AE1D75E540005C4851 /* TopCollectionView.storyboard in Resources */,
 				9F1521A71D64B44C00B264B0 /* Assets.xcassets in Resources */,
@@ -453,14 +534,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0D5A391D880A740051DD69 /* WineCategoriesOverlayView.swift in Sources */,
 				9F4A22631D6EFB6700E53DA5 /* NetworkManager.swift in Sources */,
+				9F923E151D8C12760081FDEB /* Test.swift in Sources */,
+				9FCC05F71D7F1995002F2DD4 /* WineDataManager.swift in Sources */,
 				9F4A22651D6F4BCB00E53DA5 /* BottomCollectionViewCell.swift in Sources */,
 				9FD100DC1D6DEE48009F83F5 /* TopCollectionViewCell.swift in Sources */,
 				9F1521A21D64B44C00B264B0 /* ViewController.swift in Sources */,
 				9F3A73B21D75E614005C4851 /* TopCollectionViewController.swift in Sources */,
+				9F8676511D771AF90043E3DF /* Wine.swift in Sources */,
 				9F1521A01D64B44C00B264B0 /* AppDelegate.swift in Sources */,
+				9F86764F1D771AF00043E3DF /* WineCategory.swift in Sources */,
 				9F3A73B41D75E61E005C4851 /* BottomCollectionViewController.swift in Sources */,
 				9F4C78D91D76E59F0001856D /* BaseCollectionViewController.swift in Sources */,
+				9F86764D1D76F9FD0043E3DF /* Constants.swift in Sources */,
+				9F0D5A821D884A420051DD69 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,8 +625,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -583,8 +673,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -603,6 +695,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -612,12 +705,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1C016B2B82328F6D95A36AC /* Pods-Arcohol.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6ZZYB6RDT;
 				INFOPLIST_FILE = Arcohol/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.Arcohol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -625,12 +722,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C21443A2F8BB465444B72894 /* Pods-Arcohol.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6ZZYB6RDT;
 				INFOPLIST_FILE = Arcohol/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.Arcohol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -642,6 +743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.ArcoholTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcohol.app/Arcohol";
 			};
 			name = Debug;
@@ -654,6 +756,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.ArcoholTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcohol.app/Arcohol";
 			};
 			name = Release;
@@ -665,6 +768,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.ArcoholUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Arcohol;
 			};
 			name = Debug;
@@ -676,6 +780,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = manuel.marcos.ArcoholUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Arcohol;
 			};
 			name = Release;

@@ -10,24 +10,19 @@ import Foundation
 import UIKit
 
 protocol ContainterViewControllerProtocol {
-    func didSelectItem()
+    func didSelectCategory(_ wineArray: [Wine])
+    func didSelectWine(_ row: Int)
 }
 
 class BaseCollectionViewController: UICollectionViewController {
     var delegate: ContainterViewControllerProtocol?
+    fileprivate let reuseBottomIdentifier = "BottomCollectionViewCell"
 
-    private let reuseBottomIdentifier = "BottomCollectionViewCell"
-    var array: NSMutableArray = ["Meat", "Fish", "Pasta", "Cheese", "Dessert", "Vegetables", "Ocassions"]
-
-    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         self.collectionView!.collectionViewLayout.invalidateLayout()
     }
 
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.collectionView!.frame.height, height: self.collectionView!.frame.height)
-    }
-
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        self.delegate?.didSelectItem()
     }
 }

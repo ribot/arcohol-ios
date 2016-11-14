@@ -11,5 +11,12 @@ import UIKit
 
 class BottomCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelGrape: UILabel!
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelYear: UILabel!
+
+    @IBOutlet weak var labelCountryContent: UILabel!
+    @IBOutlet weak var labelNameContent: UILabel!
+    @IBOutlet weak var labelVABContent: UILabel!
+    @IBOutlet weak var labeltastingNotesContent: UILabel!
 }
